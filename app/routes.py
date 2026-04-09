@@ -1,3 +1,4 @@
+import os
 from flask import (
     Blueprint,
     render_template,
@@ -8,6 +9,7 @@ from flask import (
     session,
     send_from_directory,
     jsonify,
+    current_app,
 )
 from app import db
 from app.forms import RegistrationForm, LoginForm
@@ -84,6 +86,24 @@ def save_mbti():
         db.session.commit()
 
     return jsonify({"success": True})
+
+
+@bp.route("/api/data")
+def api_data():
+    templates_dir = os.path.join(current_app.root_path, "templates")
+    return send_from_directory(templates_dir, "data.json")
+
+
+@bp.route("/api/animals")
+def api_animals():
+    templates_dir = os.path.join(current_app.root_path, "templates")
+    return send_from_directory(templates_dir, "animals.json")
+
+
+@bp.route("/api/insights")
+def api_insights():
+    templates_dir = os.path.join(current_app.root_path, "templates")
+    return send_from_directory(templates_dir, "insights.json")
 
 
 @bp.route("/favicon.ico")

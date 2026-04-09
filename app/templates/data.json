@@ -2,399 +2,399 @@
     "INFJ": {
       "INFJ": {
         "compatibility": "90%",
-        "description": "INFJ สองคนมักเข้าใจกันเป็นอย่างดีเพราะมีค่านิยมและความคิดคล้ายกัน ทั้งคู่ชอบความลึกซึ้งและความหมายในชีวิต แต่ปัญหาอาจเกิดขึ้นเมื่อทั้งคู่หลีกเลี่ยงความขัดแย้งและไม่กล้าแสดงความต้องการของตัวเอง"
+        "description": "两个INFJ通常能很好地理解彼此，因为他们有相似的价值观和思维方式。双方都喜欢深度与生命的意义，但当两人都回避冲突、不敢表达自身需求时，问题便可能出现。"
       },
       "ENFP": {
         "compatibility": "95%",
-        "description": "INFJ และ ENFP มักถูกดึงดูดกันเพราะทั้งคู่มีความคิดสร้างสรรค์และชอบการสนทนาเชิงลึก ENFP ช่วยให้ INFJ รู้สึกมีชีวิตชีวา ในขณะที่ INFJ ให้ความเข้าใจและความมั่นคงทางอารมณ์แก่ ENFP"
+        "description": "INFJ与ENFP往往相互吸引，因为双方都富有创造力，喜欢深度交流。ENFP让INFJ感到充满活力，而INFJ则为ENFP提供情感上的理解与稳定。"
       },
       "ENTP": {
         "compatibility": "85%",
-        "description": "INFJ และ ENTP มักสนุกกับการแลกเปลี่ยนความคิดเห็นเพราะทั้งคู่ชอบความคิดเชิงลึก อย่างไรก็ตาม ENTP อาจดูชอบโต้แย้งเกินไปสำหรับ INFJ ที่ต้องการความกลมเกลียว"
+        "description": "INFJ与ENTP常常享受思想交流，因为双方都喜欢深度思考。然而，ENTP有时显得过于喜欢争论，而INFJ则渴望和谐。"
       },
       "INTJ": {
         "compatibility": "90%",
-        "description": "INFJ และ INTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดเชิงกลยุทธ์และวิสัยทัศน์ แต่ INTJ อาจดูเย็นชาเกินไปสำหรับ INFJ ที่ต้องการความอบอุ่นทางอารมณ์"
+        "description": "INFJ与INTJ通常相处融洽，因为双方都喜欢战略思维与远见。但INTJ有时显得过于冷淡，而INFJ需要情感上的温暖。"
       },
       "INFP": {
         "compatibility": "92%",
-        "description": "INFJ และ INFP มักเข้าใจกันดีเพราะทั้งคู่มีความอ่อนไหวและเห็นอกเห็นใจ แต่บางครั้งอาจมีปัญหาเพราะทั้งคู่ชอบหลีกเลี่ยงความขัดแย้ง"
+        "description": "INFJ与INFP通常彼此理解，因为双方都敏感且富有同理心。但有时会出现问题，因为两人都倾向于回避冲突。"
       },
       "ENFJ": {
         "compatibility": "94%",
-        "description": "INFJ และ ENFJ มักเข้ากันได้ดีเพราะทั้งคู่มีค่านิยมคล้ายกันและใส่ใจคนอื่น ENFJ ชอบเป็นผู้นำ ในขณะที่ INFJ ชอบสนับสนุน ซึ่งทำให้เป็นคู่ที่สมดุล"
+        "description": "INFJ与ENFJ通常相处融洽，因为双方价值观相近且关心他人。ENFJ喜欢引领，而INFJ喜欢支持，形成了平衡的组合。"
       },
       "INTP": {
         "compatibility": "80%",
-        "description": "INFJ และ INTP มักดึงดูดกันเพราะทั้งคู่ชอบความคิดเชิงลึก แต่ INTP อาจดูใช้เหตุผลเกินไปสำหรับ INFJ ที่เน้นความรู้สึก"
+        "description": "INFJ与INTP往往相互吸引，因为双方都喜欢深度思考。但INTP有时显得过于理性，而INFJ更注重情感。"
       },
       "ISTJ": {
         "compatibility": "70%",
-        "description": "INFJ และ ISTJ อาจเข้ากันได้ยากเพราะ ISTJ ชอบความเป็นระเบียบและโครงสร้าง ในขณะที่ INFJ ชอบความยืดหยุ่น แต่หากเข้าใจกันก็สามารถเติมเต็มซึ่งกันและกันได้"
+        "description": "INFJ与ISTJ可能较难相处，因为ISTJ喜欢秩序与结构，而INFJ偏好灵活。但若相互理解，双方可以互补。"
       },
       "ISFJ": {
         "compatibility": "88%",
-        "description": "INFJ และ ISFJ มักเข้ากันได้ดีเพราะทั้งคู่มีความอ่อนไหวและใส่ใจคนอื่น แต่ ISFJ อาจดูอนุรักษ์นิยมเกินไปสำหรับ INFJ ที่ชอบความคิดสร้างสรรค์"
+        "description": "INFJ与ISFJ通常相处融洽，因为双方都敏感且关心他人。但ISFJ有时显得过于保守，而INFJ喜欢创新思维。"
       },
       "ESTP": {
         "compatibility": "60%",
-        "description": "INFJ และ ESTP อาจเข้ากันได้ยากเพราะ ESTP ชอบการกระทำและความตื่นเต้น ในขณะที่ INFJ ชอบความสงบและความคิดเชิงลึก แต่หากเรียนรู้ที่จะเข้าใจกันก็สามารถเติมเต็มซึ่งกันและกันได้"
+        "description": "INFJ与ESTP可能较难相处，因为ESTP喜欢行动与刺激，而INFJ偏好平静与深度思考。但若学会理解彼此，双方可以互补。"
       },
       "ESFP": {
         "compatibility": "65%",
-        "description": "INFJ และ ESFP อาจมีปัญหาการสื่อสารเพราะ ESFP ชอบความสนุกสนานและสังคม ในขณะที่ INFJ ชอบความสงบและความลึกซึ้ง แต่ ESFP สามารถช่วยให้ INFJ ผ่อนคลายได้"
+        "description": "INFJ与ESFP可能存在沟通问题，因为ESFP喜欢欢乐与社交，而INFJ偏好宁静与深度。但ESFP能帮助INFJ放松。"
       },
       "ESTJ": {
         "compatibility": "55%",
-        "description": "INFJ และ ESTJ อาจขัดแย้งกันเพราะ ESTJ ชอบความเป็นระเบียบและโครงสร้าง ในขณะที่ INFJ ชอบความยืดหยุ่นและความคิดสร้างสรรค์ แต่หากเข้าใจกันก็สามารถทำงานร่วมกันได้ดี"
+        "description": "INFJ与ESTJ可能产生冲突，因为ESTJ喜欢秩序与结构，而INFJ偏好灵活与创造性。但若相互理解，双方也能很好地合作。"
       },
       "ESFJ": {
         "compatibility": "75%",
-        "description": "INFJ และ ESFJ มักเข้ากันได้ดีเพราะทั้งคู่ใส่ใจคนอื่น แต่ ESFJ อาจดูเน้นสังคมเกินไปสำหรับ INFJ ที่ชอบความเป็นส่วนตัว"
+        "description": "INFJ与ESFJ通常相处融洽，因为双方都关心他人。但ESFJ有时显得过于注重社交，而INFJ更喜欢私人空间。"
       },
       "ISTP": {
         "compatibility": "68%",
-        "description": "INFJ และ ISTP อาจเข้ากันได้ยากเพราะ ISTP ชอบความเป็นอิสระและการกระทำ ในขณะที่ INFJ ชอบความลึกซึ้งและความสัมพันธ์ แต่หากเข้าใจกันก็สามารถเติมเต็มซึ่งกันและกันได้"
+        "description": "INFJ与ISTP可能较难相处，因为ISTP喜欢独立与行动，而INFJ偏好深度与关系。但若相互理解，双方可以互补。"
       },
       "ISFP": {
         "compatibility": "85%",
-        "description": "INFJ และ ISFP มักเข้ากันได้ดีเพราะทั้งคู่มีความอ่อนไหวและเห็นอกเห็นใจ แต่ ISFP อาจดูไม่ชอบวางแผนสำหรับ INFJ ที่ชอบการเตรียมการล่วงหน้า"
+        "description": "INFJ与ISFP通常相处融洽，因为双方都敏感且富有同理心。但ISFP有时显得不喜欢提前计划，而INFJ喜欢做好准备。"
       },
       "ENTJ": {
         "compatibility": "75%",
-        "description": "INFJ และ ENTJ มักดึงดูดกันเพราะทั้งคู่มีวิสัยทัศน์และความทะเยอทะยาน แต่ ENTJ อาจดูก้าวร้าวเกินไปสำหรับ INFJ ที่ต้องการความอ่อนโยน"
+        "description": "INFJ与ENTJ往往相互吸引，因为双方都有远见与抱负。但ENTJ有时显得过于强势，而INFJ需要温柔的对待。"
       }
     },
     "INFP": {
       "INFP": {
         "compatibility": "90%",
-        "description": "INFP สองคนมักเข้าใจกันเป็นอย่างดีเพราะมีค่านิยมและความคิดคล้ายกัน ทั้งคู่ชอบความลึกซึ้งและความหมายในชีวิต แต่ปัญหาอาจเกิดขึ้นเมื่อทั้งคู่หลีกเลี่ยงความขัดแย้งและไม่กล้าแสดงความต้องการของตัวเอง"
+        "description": "两个INFP通常能很好地理解彼此，因为他们有相似的价值观和思维方式。双方都喜欢深度与生命的意义，但当两人都回避冲突、不敢表达自身需求时，问题便可能出现。"
       },
       "ENFJ": {
         "compatibility": "95%",
-        "description": "INFP และ ENFJ มักถูกดึงดูดกันอย่างมาก เพราะ INFP ให้ความลึกซึ้งทางอารมณ์ที่ ENFJ ต้องการ ในขณะที่ ENFJ ให้การสนับสนุนและแรงบันดาลใจที่ INFP ต้องการ ทั้งคู่มีค่านิยมที่คล้ายกันและเข้าใจความรู้สึกของกันและกัน"
+        "description": "INFP与ENFJ往往强烈地相互吸引，因为INFP提供了ENFJ所需的情感深度，而ENFJ则给予INFP所需的支持与激励。双方价值观相近，能够理解彼此的感受。"
       },
       "ENFP": {
         "compatibility": "92%",
-        "description": "INFP และ ENFP มักสนุกกับการแลกเปลี่ยนความคิดเห็นเพราะทั้งคู่ชอบความคิดเชิงลึก อย่างไรก็ตาม ENFP อาจดูชอบโต้แย้งเกินไปสำหรับ INFP ที่ต้องการความกลมเกลียว"
+        "description": "INFP与ENFP通常享受思想交流，因为双方都喜欢深度思考。然而，ENFP有时显得过于喜欢争论，而INFP渴望和谐。"
       },
       "INFJ": {
         "compatibility": "94%",
-        "description": "INFP และ INFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดเชิงกลยุทธ์และวิสัยทัศน์ แต่ INFJ อาจดูเย็นชาเกินไปสำหรับ INFP ที่ต้องการความอบอุ่นทางอารมณ์"
+        "description": "INFP与INFJ通常相处融洽，因为双方都喜欢战略思维与远见。但INFJ有时显得过于冷淡，而INFP需要情感上的温暖。"
       },
       "ISFP": {
         "compatibility": "88%",
-        "description": "INFP และ ISFP มักเข้าใจกันดีเพราะทั้งคู่มีความอ่อนไหวและเห็นอกเห็นใจ แต่บางครั้งอาจมีปัญหาเพราะทั้งคู่ชอบหลีกเลี่ยงความขัดแย้ง"
+        "description": "INFP与ISFP通常彼此理解，因为双方都敏感且富有同理心。但有时会出现问题，因为两人都倾向于回避冲突。"
       },
       "ENTP": {
         "compatibility": "85%",
-        "description": "INFP และ ENTP มักเข้ากันได้ดีเพราะทั้งคู่มีค่านิยมคล้ายกันและใส่ใจคนอื่น ENTP ชอบเป็นผู้นำ ในขณะที่ INFP ชอบสนับสนุน ซึ่งทำให้เป็นคู่ที่สมดุล"
+        "description": "INFP与ENTP通常相处融洽，因为双方价值观相近且关心他人。ENTP喜欢引领，而INFP喜欢支持，形成了平衡的组合。"
       },
       "INTP": {
         "compatibility": "80%",
-        "description": "INFP และ INTP มักดึงดูดกันเพราะทั้งคู่ชอบความคิดเชิงลึก แต่ INTP อาจดูใช้เหตุผลเกินไปสำหรับ INFP ที่เน้นความรู้สึก"
+        "description": "INFP与INTP往往相互吸引，因为双方都喜欢深度思考。但INTP有时显得过于理性，而INFP更注重情感。"
       },
       "ISTJ": {
         "compatibility": "70%",
-        "description": "INFP และ ISTJ อาจเข้ากันได้ยากเพราะ ISTJ ชอบความเป็นระเบียบและโครงสร้าง ในขณะที่ INFP ชอบความยืดหยุ่น แต่หากเข้าใจกันก็สามารถเติมเต็มซึ่งกันและกันได้"
+        "description": "INFP与ISTJ可能较难相处，因为ISTJ喜欢秩序与结构，而INFP偏好灵活。但若相互理解，双方可以互补。"
       },
       "ISFJ": {
         "compatibility": "75%",
-        "description": "INFP และ ISFJ มักเข้ากันได้ดีเพราะทั้งคู่มีความอ่อนไหวและใส่ใจคนอื่น แต่ ISFJ อาจดูอนุรักษ์นิยมเกินไปสำหรับ INFP ที่ชอบความคิดสร้างสรรค์"
+        "description": "INFP与ISFJ通常相处融洽，因为双方都敏感且关心他人。但ISFJ有时显得过于保守，而INFP喜欢创新思维。"
       },
       "ESTP": {
         "compatibility": "60%",
-        "description": "INFP และ ESTP อาจเข้ากันได้ยากเพราะ ESTP ชอบการกระทำและความตื่นเต้น ในขณะที่ INFP ชอบความสงบและความคิดเชิงลึก แต่หากเรียนรู้ที่จะเข้าใจกันก็สามารถเติมเต็มซึ่งกันและกันได้"
+        "description": "INFP与ESTP可能较难相处，因为ESTP喜欢行动与刺激，而INFP偏好平静与深度思考。但若学会理解彼此，双方可以互补。"
       },
       "ESFP": {
         "compatibility": "65%",
-        "description": "INFP และ ESFP อาจมีปัญหาการสื่อสารเพราะ ESFP ชอบความสนุกสนานและสังคม ในขณะที่ INFP ชอบความสงบและความลึกซึ้ง แต่ ESFP สามารถช่วยให้ INFP ผ่อนคลายได้"
+        "description": "INFP与ESFP可能存在沟通问题，因为ESFP喜欢欢乐与社交，而INFP偏好宁静与深度。但ESFP能帮助INFP放松。"
       },
       "ESTJ": {
         "compatibility": "55%",
-        "description": "INFP และ ESTJ อาจขัดแย้งกันเพราะ ESTJ ชอบความเป็นระเบียบและโครงสร้าง ในขณะที่ INFP ชอบความยืดหยุ่นและความคิดสร้างสรรค์ แต่หากเข้าใจกันก็สามารถทำงานร่วมกันได้ดี"
+        "description": "INFP与ESTJ可能产生冲突，因为ESTJ喜欢秩序与结构，而INFP偏好灵活与创造性。但若相互理解，双方也能很好地合作。"
       },
       "ESFJ": {
         "compatibility": "75%",
-        "description": "INFP และ ESFJ มักเข้ากันได้ดีเพราะทั้งคู่ใส่ใจคนอื่น แต่ ESFJ อาจดูเน้นสังคมเกินไปสำหรับ INFP ที่ชอบความเป็นส่วนตัว"
+        "description": "INFP与ESFJ通常相处融洽，因为双方都关心他人。但ESFJ有时显得过于注重社交，而INFP更喜欢私人空间。"
       },
       "ISTP": {
         "compatibility": "68%",
-        "description": "INFP และ ISTP อาจเข้ากันได้ยากเพราะ ISTP ชอบความเป็นอิสระและการกระทำ ในขณะที่ INFP ชอบความลึกซึ้งและความสัมพันธ์ แต่หากเข้าใจกันก็สามารถเติมเต็มซึ่งกันและกันได้"
+        "description": "INFP与ISTP可能较难相处，因为ISTP喜欢独立与行动，而INFP偏好深度与关系。但若相互理解，双方可以互补。"
       },
       "ENTJ": {
         "compatibility": "70%",
-        "description": "INFP และ ENTJ มักดึงดูดกันเพราะทั้งคู่มีวิสัยทัศน์และความทะเยอทะยาน แต่ ENTJ อาจดูก้าวร้าวเกินไปสำหรับ INFP ที่ต้องการความอ่อนโยน"
+        "description": "INFP与ENTJ往往相互吸引，因为双方都有远见与抱负。但ENTJ有时显得过于强势，而INFP需要温柔的对待。"
       },
       "INTJ": {
         "compatibility": "85%",
-        "description": "INFP และ INTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดเชิงลึกและมีวิสัยทัศน์ แต่ INTJ อาจดูเย็นชาเกินไปสำหรับ INFP ที่ต้องการความอบอุ่นทางอารมณ์"
+        "description": "INFP与INTJ通常相处融洽，因为双方都喜欢深度思考且有远见。但INTJ有时显得过于冷淡，而INFP需要情感上的温暖。"
       }
     },
     "ENFJ": {
-      "ENFJ": { "compatibility": "85%", "description": "ENFJ สองคนมักเข้าใจกันดีเพราะมีค่านิยมและวิสัยทัศน์ที่คล้ายกัน ทั้งคู่ชอบช่วยเหลือผู้อื่นและสร้างความเปลี่ยนแปลงเชิงบวก แต่อาจมีการแข่งขันกันเป็นผู้นำหรือให้ความสนใจผู้อื่นมากเกินไปจนละเลยความต้องการของตนเอง" },
-      "INFP": { "compatibility": "95%", "description": "ENFJ และ INFP มักถูกดึงดูดกันอย่างมาก เพราะ INFP ให้ความลึกซึ้งทางอารมณ์ที่ ENFJ ต้องการ ในขณะที่ ENFJ ให้การสนับสนุนและแรงบันดาลใจที่ INFP ต้องการ ทั้งคู่มีค่านิยมที่คล้ายกันและเข้าใจความรู้สึกของกันและกัน" },
-      "INFJ": { "compatibility": "94%", "description": "ENFJ และ INFJ มีความเข้าใจกันลึกซึ้ง ทั้งคู่มีความสามารถในการเข้าใจความรู้สึกของผู้อื่นและมีค่านิยมที่คล้ายกัน ENFJ ช่วยให้ INFJ เปิดเผยตัวตนมากขึ้น ในขณะที่ INFJ ช่วยให้ ENFJ มีความลึกซึ้งมากขึ้น" },
-      "ENTP": { "compatibility": "82%", "description": "ENFJ และ ENTP มักมีการแลกเปลี่ยนความคิดเห็นที่น่าสนใจ ENTP ชอบท้าทายความคิดของ ENFJ ซึ่งช่วยให้เกิดการเติบโต แต่ ENFJ อาจรู้สึกว่า ENTP ไม่ใส่ใจความรู้สึกมากพอ" },
-      "INTJ": { "compatibility": "80%", "description": "ENFJ และ INTJ สามารถเรียนรู้จากกันได้มาก INTJ ให้มุมมองเชิงวิเคราะห์ ในขณะที่ ENFJ ช่วยพัฒนาทักษะทางสังคมของ INTJ แต่อาจมีความท้าทายในการสื่อสารเรื่องอารมณ์" },
-      "ENFP": { "compatibility": "88%", "description": "ENFJ และ ENFP มีพลังงานและความกระตือรือร้นที่คล้ายกัน ทั้งคู่ชอบสร้างแรงบันดาลใจให้ผู้อื่น แต่อาจมีปัญหาในการจัดการรายละเอียดหรือการทำให้แผนสำเร็จ" },
-      "INTP": { "compatibility": "78%", "description": "ENFJ สามารถช่วยให้ INTP พัฒนาด้านอารมณ์และสังคม ในขณะที่ INTP ช่วยให้ ENFJ มีมุมมองที่เป็นตรรกะมากขึ้น แต่อาจมีความท้าทายในการสื่อสารความต้องการ" },
-      "ISTJ": { "compatibility": "65%", "description": "ENFJ และ ISTJ มีวิธีการมองโลกที่แตกต่างกัน ISTJ ชอบความเป็นระเบียบและการทำตามประเพณี ในขณะที่ ENFJ ชอบความยืดหยุ่นและการเปลี่ยนแปลง แต่สามารถเรียนรู้จากจุดแข็งของกันและกันได้" },
-      "ISFJ": { "compatibility": "75%", "description": "ENFJ และ ISFJ มีความใส่ใจผู้อื่นเหมือนกัน แต่มีวิธีการแสดงออกที่แตกต่างกัน ISFJ มักจะเงียบและระมัดระวังมากกว่า ในขณะที่ ENFJ มักจะแสดงออกและกระตือรือร้นมากกว่า" },
-      "ESTP": { "compatibility": "62%", "description": "ENFJ และ ESTP มีความแตกต่างกันมากในการมองโลก ESTP เน้นปัจจุบันและการกระทำ ในขณะที่ ENFJ มองไปที่อนาคตและความรู้สึก แต่สามารถเติมเต็มส่วนที่อีกฝ่ายขาดได้" },
-      "ESFP": { "compatibility": "70%", "description": "ENFJ และ ESFP มีความสนุกสนานและชอบเข้าสังคม แต่ ENFJ มักจะมองหาความหมายที่ลึกซึ้งมากกว่า ESFP ที่เน้นความสนุกในปัจจุบัน" },
-      "ESTJ": { "compatibility": "60%", "description": "ENFJ และ ESTJ อาจมีความขัดแย้งในวิธีการนำและการตัดสินใจ ESTJ เน้นตรรกะและกฎระเบียบ ในขณะที่ ENFJ เน้นความรู้สึกและความยืดหยุ่น" },
-      "ESFJ": { "compatibility": "82%", "description": "ENFJ และ ESFJ มีความเข้าใจกันดีในด้านการดูแลผู้อื่น แต่ ESFJ มักจะยึดติดกับประเพณีมากกว่า ENFJ ที่ชอบคิดนอกกรอบ" },
-      "ISTP": { "compatibility": "58%", "description": "ENFJ และ ISTP มีความแตกต่างกันมาก ISTP ชอบความเป็นอิสระและการทำงานคนเดียว ในขณะที่ ENFJ ชอบการทำงานร่วมกับผู้อื่น แต่สามารถเรียนรู้มุมมองใหม่ๆ จากกันได้" },
-      "ISFP": { "compatibility": "72%", "description": "ENFJ สามารถช่วยให้ ISFP แสดงออกมากขึ้น ในขณะที่ ISFP ช่วยให้ ENFJ เห็นความงามในความเรียบง่าย แต่อาจมีความท้าทายในการสื่อสารความต้องการ" },
-      "ENTJ": { "compatibility": "78%", "description": "ENFJ และ ENTJ มีความเป็นผู้นำและความทะเยอทะยานเหมือนกัน แต่มีวิธีการนำที่แตกต่างกัน ENTJ เน้นประสิทธิภาพ ในขณะที่ ENFJ เน้นการพัฒนาคน"
+      "ENFJ": { "compatibility": "85%", "description": "两个ENFJ通常彼此理解，因为他们有相似的价值观与愿景。双方都喜欢帮助他人、创造积极的改变，但可能会争相成为领导者，或因过于关注他人而忽视自身需求。" },
+      "INFP": { "compatibility": "95%", "description": "ENFJ与INFP往往强烈地相互吸引，因为INFP提供了ENFJ所需的情感深度，而ENFJ则给予INFP所需的支持与激励。双方价值观相近，能够理解彼此的感受。" },
+      "INFJ": { "compatibility": "94%", "description": "ENFJ与INFJ相互理解深刻，双方都善于体察他人感受，价值观相近。ENFJ帮助INFJ更多地展现自我，而INFJ则帮助ENFJ更加深刻。" },
+      "ENTP": { "compatibility": "82%", "description": "ENFJ与ENTP常有有趣的思想交流。ENTP喜欢挑战ENFJ的想法，有助于共同成长，但ENFJ可能觉得ENTP不够关注情感。" },
+      "INTJ": { "compatibility": "80%", "description": "ENFJ与INTJ可以从彼此身上学到很多。INTJ提供分析性视角，而ENFJ帮助INTJ发展社交技能，但在情感沟通上可能存在挑战。" },
+      "ENFP": { "compatibility": "88%", "description": "ENFJ与ENFP有着相似的活力与热情，双方都喜欢激励他人，但可能在处理细节或落实计划方面遇到困难。" },
+      "INTP": { "compatibility": "78%", "description": "ENFJ能帮助INTP在情感与社交方面成长，而INTP则帮助ENFJ更具逻辑性，但在表达需求方面可能存在沟通挑战。" },
+      "ISTJ": { "compatibility": "65%", "description": "ENFJ与ISTJ看世界的方式不同。ISTJ喜欢秩序与传统，而ENFJ偏好灵活与变化，但双方可以从彼此的优势中学习。" },
+      "ISFJ": { "compatibility": "75%", "description": "ENFJ与ISFJ同样关心他人，但表达方式不同。ISFJ通常更安静、更谨慎，而ENFJ则更外向、更热情。" },
+      "ESTP": { "compatibility": "62%", "description": "ENFJ与ESTP对世界的看法差异很大。ESTP注重当下与行动，而ENFJ着眼于未来与情感，但双方可以弥补彼此的不足。" },
+      "ESFP": { "compatibility": "70%", "description": "ENFJ与ESFP都喜欢欢乐与社交，但ENFJ通常寻求比ESFP更深层的意义，后者更注重当下的乐趣。" },
+      "ESTJ": { "compatibility": "60%", "description": "ENFJ与ESTJ在领导与决策方式上可能存在冲突。ESTJ注重逻辑与规则，而ENFJ注重情感与灵活性。" },
+      "ESFJ": { "compatibility": "82%", "description": "ENFJ与ESFJ在照顾他人方面相互理解，但ESFJ通常比ENFJ更遵循传统，而ENFJ更喜欢突破常规。" },
+      "ISTP": { "compatibility": "58%", "description": "ENFJ与ISTP差异较大。ISTP喜欢独立与独自工作，而ENFJ喜欢与他人合作，但双方可以从彼此身上获得新的视角。" },
+      "ISFP": { "compatibility": "72%", "description": "ENFJ能帮助ISFP更多地表达自我，而ISFP则帮助ENFJ在简单中发现美，但在表达需求时可能存在沟通挑战。" },
+      "ENTJ": { "compatibility": "78%", "description": "ENFJ与ENTJ同样具有领导力与抱负，但领导方式不同。ENTJ注重效率，而ENFJ注重人的发展。"
       }
     },
     "ENFP": {
-      "ENFP": { "compatibility": "85%", "description": "ENFP สองคนมักมีความสนุกสนานและเข้าใจกันดี ทั้งคู่มีความคิดสร้างสรรค์และชอบสำรวจความเป็นไปได้ใหม่ๆ แต่อาจมีปัญหาในการจัดการเรื่องทั่วไปหรือการทำให้แผนสำเร็จ เพราะทั้งคู่ชอบคิดมากกว่าลงมือทำ" },
-      "INFJ": { "compatibility": "95%", "description": "ENFP และ INFJ มักมีความเข้ากันได้ดีมาก INFJ ให้ความลึกซึ้งและความมั่นคงที่ ENFP ต้องการ ในขณะที่ ENFP ช่วยให้ INFJ เปิดใจรับประสบการณ์ใหม่ๆ ทั้งคู่มีความเข้าใจในระดับจิตใจที่ลึกซึ้ง" },
-      "INTJ": { "compatibility": "92%", "description": "ENFP และ INTJ มักดึงดูดกันแม้จะดูเหมือนตรงข้าม INTJ ให้โครงสร้างและความมั่นคงที่ ENFP ต้องการ ในขณะที่ ENFP นำความสนุกและความยืดหยุ่นมาสู่ชีวิตของ INTJ" },
-      "INFP": { "compatibility": "88%", "description": "ENFP และ INFP เข้าใจกันดีในด้านความคิดสร้างสรรค์และค่านิยม ทั้งคู่ชอบสำรวจความเป็นไปได้ใหม่ๆ แต่อาจต้องระวังการหลงใหลในความฝันมากเกินไปจนละเลยความเป็นจริง" },
-      "ENFJ": { "compatibility": "88%", "description": "ENFP และ ENFJ มีความกระตือรือร้นและความสร้างสรรค์ที่คล้ายกัน ทั้งคู่ชอบช่วยเหลือผู้อื่น แต่ ENFJ อาจดูจริงจังเกินไปสำหรับ ENFP ที่ชอบความยืดหยุ่น" },
-      "ENTP": { "compatibility": "83%", "description": "ENFP และ ENTP มีความคิดสร้างสรรค์และความกระตือรือร้นที่คล้ายกัน ทั้งคู่ชอบการสำรวจความคิดใหม่ๆ แต่อาจมีปัญหาในการจัดการอารมณ์และการทำให้แผนสำเร็จ" },
-      "INTP": { "compatibility": "78%", "description": "ENFP ชอบความคิดที่ลึกซึ้งของ INTP ในขณะที่ INTP ชื่นชมความกระตือรือร้นของ ENFP แต่อาจมีความท้าทายในการสื่อสารความรู้สึก" },
-      "ISTJ": { "compatibility": "65%", "description": "ENFP และ ISTJ มีวิธีการมองโลกที่แตกต่างกันมาก ISTJ ชอบความมีระเบียบและการวางแผน ในขณะที่ ENFP ชอบความยืดหยุ่นและการเปลี่ยนแปลง แต่สามารถเรียนรู้จากกันได้" },
-      "ISFJ": { "compatibility": "70%", "description": "ENFP สามารถนำความสนุกและความคิดสร้างสรรค์มาสู่ชีวิตของ ISFJ ในขณะที่ ISFJ ช่วยให้ ENFP มีความมั่นคงมากขึ้น แต่อาจมีความขัดแย้งในเรื่องการใช้ชีวิต" },
-      "ESTP": { "compatibility": "72%", "description": "ENFP และ ESTP มีความกระตือรือร้นและชอบการผจญภัยเหมือนกัน แต่ ESTP มักจะเน้นที่ประสบการณ์ทางกายภาพ ในขณะที่ ENFP สนใจความคิดและความเป็นไปได้" },
-      "ESFP": { "compatibility": "75%", "description": "ENFP และ ESFP มีความสนุกสนานและชอบสังคมเหมือนกัน แต่ ENFP มักจะสนใจความหมายที่ลึกซึ้งมากกว่า ESFP ที่เน้นความสนุกในปัจจุบัน" },
-      "ESTJ": { "compatibility": "58%", "description": "ENFP และ ESTJ มีวิธีการมองโลกที่แตกต่างกันมาก ESTJ ชอบโครงสร้างและกฎระเบียบ ในขณะที่ ENFP ชอบความยืดหยุ่นและอิสระ แต่สามารถเติมเต็มจุดอ่อนของกันและกันได้" },
-      "ESFJ": { "compatibility": "72%", "description": "ENFP และ ESFJ มีความสนใจในผู้อื่นเหมือนกัน แต่ ESFJ มักจะยึดติดกับประเพณีมากกว่า ENFP ที่ชอบท้าทายบรรทัดฐาน" },
-      "ISTP": { "compatibility": "65%", "description": "ENFP และ ISTP มีความแตกต่างกันในการมองโลก แต่สามารถเรียนรู้จากกันได้ ISTP ช่วยให้ ENFP มีเหตุผลมากขึ้น ในขณะที่ ENFP ช่วยให้ ISTP เปิดใจกว้างขึ้น" },
-      "ISFP": { "compatibility": "76%", "description": "ENFP และ ISFP มีความคิดสร้างสรรค์และชื่นชอบความงามเหมือนกัน แต่ ISFP มักจะเงียบและระมัดระวังมากกว่า ENFP ที่แสดงออกมากกว่า" },
-      "ENTJ": { "compatibility": "76%", "description": "ENFP และ ENTJ สามารถสร้างทีมที่มีประสิทธิภาพได้ ENTJ ให้โครงสร้างและการวางแผน ในขณะที่ ENFP นำความคิดสร้างสรรค์และแรงบันดาลใจ"
+      "ENFP": { "compatibility": "85%", "description": "两个ENFP通常很有趣且彼此理解，双方都富有创造力，喜欢探索新的可能性，但可能在处理日常事务或落实计划方面遇到困难，因为两人都更喜欢思考而非行动。" },
+      "INFJ": { "compatibility": "95%", "description": "ENFP与INFJ通常非常相容。INFJ提供了ENFP所需的深度与稳定，而ENFP则帮助INFJ敞开心扉接受新体验。双方在心灵层面有着深刻的理解。" },
+      "INTJ": { "compatibility": "92%", "description": "ENFP与INTJ即使看似相反也常常相互吸引。INTJ提供了ENFP所需的结构与稳定，而ENFP则为INTJ的生活带来乐趣与灵活性。" },
+      "INFP": { "compatibility": "88%", "description": "ENFP与INFP在创造力与价值观方面相互理解。双方都喜欢探索新的可能性，但要注意不要过于沉迷于梦想而忽视现实。" },
+      "ENFJ": { "compatibility": "88%", "description": "ENFP与ENFJ有着相似的热情与创造力，双方都喜欢帮助他人，但ENFJ有时对喜欢灵活的ENFP来说显得过于严肃。" },
+      "ENTP": { "compatibility": "83%", "description": "ENFP与ENTP有着相似的创造力与热情，双方都喜欢探索新想法，但可能在情感管理和落实计划方面遇到困难。" },
+      "INTP": { "compatibility": "78%", "description": "ENFP喜欢INTP深刻的思维，而INTP欣赏ENFP的热情，但在情感沟通方面可能存在挑战。" },
+      "ISTJ": { "compatibility": "65%", "description": "ENFP与ISTJ看世界的方式差异很大。ISTJ喜欢秩序与计划，而ENFP偏好灵活与变化，但双方可以互相学习。" },
+      "ISFJ": { "compatibility": "70%", "description": "ENFP能为ISFJ的生活带来乐趣与创造力，而ISFJ则帮助ENFP更加稳定，但在生活方式上可能存在冲突。" },
+      "ESTP": { "compatibility": "72%", "description": "ENFP与ESTP同样热情且喜欢冒险，但ESTP通常更注重身体体验，而ENFP对想法与可能性更感兴趣。" },
+      "ESFP": { "compatibility": "75%", "description": "ENFP与ESFP同样喜欢欢乐与社交，但ENFP通常寻求比注重当下乐趣的ESFP更深层的意义。" },
+      "ESTJ": { "compatibility": "58%", "description": "ENFP与ESTJ看世界的方式差异很大。ESTJ喜欢结构与规则，而ENFP偏好灵活与自由，但双方可以弥补彼此的弱点。" },
+      "ESFJ": { "compatibility": "72%", "description": "ENFP与ESFJ同样关心他人，但ESFJ通常比喜欢挑战惯例的ENFP更遵循传统。" },
+      "ISTP": { "compatibility": "65%", "description": "ENFP与ISTP在看世界方面有所不同，但可以互相学习。ISTP帮助ENFP更加理性，而ENFP帮助ISTP更加开放。" },
+      "ISFP": { "compatibility": "76%", "description": "ENFP与ISFP都富有创造力且欣赏美，但ISFP通常比更外向的ENFP更安静、更谨慎。" },
+      "ENTJ": { "compatibility": "76%", "description": "ENFP与ENTJ可以组成高效的团队。ENTJ提供结构与计划，而ENFP带来创造力与激励。"
       }
     },
     "ISTJ": {
-      "ISTJ": { "compatibility": "90%", "description": "ISTJ สองคนมักเข้าใจกันดีเพราะมีค่านิยมและวิธีการทำงานที่คล้ายกัน ทั้งคู่ให้ความสำคัญกับความรับผิดชอบและความน่าเชื่อถือ แต่อาจขาดความยืดหยุ่นและการเปิดรับมุมมองใหม่ๆ" },
-      "ESTJ": { "compatibility": "85%", "description": "ISTJ และ ESTJ มีวิธีคิดและการทำงานที่คล้ายกัน ทั้งคู่ชอบความมีระเบียบและการวางแผน ESTJ มักจะเป็นผู้นำในสังคม ในขณะที่ ISTJ สนับสนุนอยู่เบื้องหลัง" },
-      "ISFJ": { "compatibility": "88%", "description": "ISTJ และ ISFJ มีความเข้าใจกันดีในเรื่องความรับผิดชอบและการให้ความสำคัญกับประเพณี ISFJ มีความอ่อนโยนมากกว่า ซึ่งช่วยเติมเต็มความเป็นเหตุเป็นผลของ ISTJ" },
-      "ESFJ": { "compatibility": "82%", "description": "ISTJ และ ESFJ มีความเข้าใจกันในเรื่องค่านิยมและความรับผิดชอบ ESFJ ช่วยให้ ISTJ เปิดเผยความรู้สึกมากขึ้น แต่อาจรู้สึกว่า ESFJ ใส่ใจความรู้สึกผู้อื่นมากเกินไป" },
-      "INFJ": { "compatibility": "70%", "description": "ISTJ และ INFJ มีความแตกต่างในวิธีมองโลก แต่ทั้งคู่ให้ความสำคัญกับความลึกซึ้ง INFJ ช่วยให้ ISTJ เข้าใจมิติทางอารมณ์มากขึ้น ในขณะที่ ISTJ ให้ความมั่นคงแก่ INFJ" },
-      "ENFJ": { "compatibility": "65%", "description": "ISTJ และ ENFJ มีความแตกต่างในการแสดงออกและการตัดสินใจ ENFJ อาจรู้สึกว่า ISTJ เย็นชาเกินไป ในขณะที่ ISTJ อาจรู้สึกว่า ENFJ ใช้อารมณ์มากเกินไป" },
-      "INTJ": { "compatibility": "78%", "description": "ISTJ และ INTJ มีความเป็นตรรกะเหมือนกัน แต่ INTJ มักจะชอบนวัตกรรมมากกว่า ISTJ ที่ชอบวิธีการแบบดั้งเดิม ทั้งคู่สามารถเรียนรู้จากมุมมองที่แตกต่างของกันและกัน" },
-      "ENTJ": { "compatibility": "72%", "description": "ISTJ และ ENTJ มีความเป็นระเบียบและความรับผิดชอบเหมือนกัน แต่ ENTJ มักจะก้าวร้าวและชอบการเปลี่ยนแปลงมากกว่า ISTJ" },
-      "INFP": { "compatibility": "60%", "description": "ISTJ และ INFP มีความแตกต่างกันมาก แต่สามารถเติมเต็มกันได้ INFP ช่วยให้ ISTJ เห็นมุมมองที่สร้างสรรค์ ในขณะที่ ISTJ ช่วยให้ INFP มีความมั่นคงมากขึ้น" },
-      "ENFP": { "compatibility": "55%", "description": "ISTJ และ ENFP มีวิธีการมองโลกที่แตกต่างกันมาก ENFP อาจรู้สึกถูกจำกัดโดย ISTJ ในขณะที่ ISTJ อาจรู้สึกว่า ENFP ไม่มีความรับผิดชอบเพียงพอ" },
-      "INTP": { "compatibility": "75%", "description": "ISTJ และ INTP มีความเป็นตรรกะเหมือนกัน แต่ INTP มักจะชอบทฤษฎีมากกว่าการปฏิบัติ ทั้งคู่สามารถเรียนรู้วิธีคิดที่แตกต่างจากกันและกัน" },
-      "ENTP": { "compatibility": "58%", "description": "ISTJ และ ENTP มีความแตกต่างกันมากในวิธีคิดและการใช้ชีวิต ENTP ชอบท้าทายกฎเกณฑ์ ในขณะที่ ISTJ ให้ความสำคัญกับความมั่นคงและประเพณี" },
-      "ISFP": { "compatibility": "72%", "description": "ISTJ และ ISFP มีความแตกต่างในวิธีการทำงาน แต่ทั้งคู่มีความจริงจังและซื่อสัตย์ ISFP ช่วยให้ ISTJ เห็นความงามในชีวิต" },
-      "ESFP": { "compatibility": "65%", "description": "ISTJ และ ESFP มีวิธีการใช้ชีวิตที่แตกต่างกัน ESFP ชอบความสนุกและการผจญภัย ในขณะที่ ISTJ ชอบความมั่นคงและการวางแผน" },
-      "ISTP": { "compatibility": "80%", "description": "ISTJ และ ISTP มีความเข้าใจกันในเรื่องความเป็นตรรกะและการทำงาน แต่ ISTP มีความยืดหยุ่นมากกว่าในการแก้ปัญหา" },
-      "ESTP": { "compatibility": "68%", "description": "ISTJ และ ESTP มีความแตกต่างในการใช้ชีวิต ESTP ชอบความตื่นเต้นและการเสี่ยง ในขณะที่ ISTJ ชอบความปลอดภัยและความแน่นอน"
+      "ISTJ": { "compatibility": "90%", "description": "两个ISTJ通常彼此理解，因为他们有相似的价值观与工作方式。双方都重视责任与可靠性，但可能缺乏灵活性，不愿接受新视角。" },
+      "ESTJ": { "compatibility": "85%", "description": "ISTJ与ESTJ思维方式和工作方式相似，双方都喜欢秩序与计划。ESTJ通常在社交中担任领导者，而ISTJ在幕后提供支持。" },
+      "ISFJ": { "compatibility": "88%", "description": "ISTJ与ISFJ在责任感和对传统的重视方面相互理解。ISFJ比ISTJ更温柔，有助于弥补ISTJ理性的一面。" },
+      "ESFJ": { "compatibility": "82%", "description": "ISTJ与ESFJ在价值观和责任感方面相互理解。ESFJ帮助ISTJ更多地表达情感，但可能觉得ESFJ过于关注他人感受。" },
+      "INFJ": { "compatibility": "70%", "description": "ISTJ与INFJ对世界的看法不同，但双方都重视深度。INFJ帮助ISTJ更好地理解情感维度，而ISTJ则为INFJ提供稳定。" },
+      "ENFJ": { "compatibility": "65%", "description": "ISTJ与ENFJ在表达方式和决策上存在差异。ENFJ可能觉得ISTJ过于冷漠，而ISTJ可能觉得ENFJ过于感性。" },
+      "INTJ": { "compatibility": "78%", "description": "ISTJ与INTJ同样具有逻辑性，但INTJ通常比喜欢传统方式的ISTJ更热衷于创新。双方可以从彼此不同的视角中学习。" },
+      "ENTJ": { "compatibility": "72%", "description": "ISTJ与ENTJ同样有条理且负责任，但ENTJ通常比ISTJ更激进、更喜欢变化。" },
+      "INFP": { "compatibility": "60%", "description": "ISTJ与INFP差异很大，但可以互补。INFP帮助ISTJ看到更有创意的视角，而ISTJ帮助INFP更加稳定。" },
+      "ENFP": { "compatibility": "55%", "description": "ISTJ与ENFP看世界的方式差异很大。ENFP可能觉得受到ISTJ的限制，而ISTJ可能觉得ENFP不够负责任。" },
+      "INTP": { "compatibility": "75%", "description": "ISTJ与INTP同样具有逻辑性，但INTP通常比ISTJ更偏向理论而非实践。双方可以互相学习不同的思维方式。" },
+      "ENTP": { "compatibility": "58%", "description": "ISTJ与ENTP在思维方式和生活方式上差异很大。ENTP喜欢挑战规则，而ISTJ重视稳定与传统。" },
+      "ISFP": { "compatibility": "72%", "description": "ISTJ与ISFP在工作方式上有所不同，但双方都认真且诚实。ISFP帮助ISTJ发现生活中的美。" },
+      "ESFP": { "compatibility": "65%", "description": "ISTJ与ESFP的生活方式不同。ESFP喜欢乐趣与冒险，而ISTJ喜欢稳定与计划。" },
+      "ISTP": { "compatibility": "80%", "description": "ISTJ与ISTP在逻辑与工作方面相互理解，但ISTP在解决问题时比ISTJ更灵活。" },
+      "ESTP": { "compatibility": "68%", "description": "ISTJ与ESTP在生活方式上有所不同。ESTP喜欢刺激与冒险，而ISTJ喜欢安全与确定性。"
       }
     },
     "ISFJ": {
-      "ISFJ": { "compatibility": "88%", "description": "ISFJ สองคนมักเข้าใจกันดีเพราะมีค่านิยมและความใส่ใจที่คล้ายกัน ทั้งคู่ให้ความสำคัญกับความมั่นคงและการดูแลกัน แต่อาจมีปัญหาในการแสดงความต้องการของตนเอง" },
-      "ESFJ": { "compatibility": "85%", "description": "ISFJ และ ESFJ มีความเข้าใจกันดีในเรื่องการดูแลผู้อื่น ESFJ มักจะเป็นฝ่ายนำในสังคม ในขณะที่ ISFJ สนับสนุนอยู่เบื้องหลัง ทำให้เกิดความสมดุล" },
-      "ISTJ": { "compatibility": "88%", "description": "ISFJ และ ISTJ มีความรับผิดชอบและความน่าเชื่อถือเหมือนกัน แต่ ISFJ มีความอ่อนโยนมากกว่า ซึ่งช่วยเติมเต็มความเป็นเหตุเป็นผลของ ISTJ" },
-      "ESTJ": { "compatibility": "78%", "description": "ISFJ และ ESTJ มีความรับผิดชอบเหมือนกัน แต่ ESTJ อาจดูแข็งกร้าวเกินไปสำหรับ ISFJ ที่อ่อนโยนกว่า อย่างไรก็ตาม ทั้งคู่สามารถสร้างทีมที่มีประสิทธิภาพได้" },
-      "INFJ": { "compatibility": "82%", "description": "ISFJ และ INFJ มีความเข้าใจในความรู้สึกของผู้อื่น แต่ INFJ มักจะมองภาพใหญ่ ในขณะที่ ISFJ ใส่ใจรายละเอียดปัจจุบัน ทั้งคู่สามารถเรียนรู้จากกันได้" },
-      "ENFJ": { "compatibility": "75%", "description": "ISFJ และ ENFJ มีความใส่ใจผู้อื่นเหมือนกัน แต่ ENFJ มักจะกระตือรือร้นและแสดงออกมากกว่า ซึ่งอาจทำให้ ISFJ รู้สึกอึดอัด" },
-      "INTJ": { "compatibility": "65%", "description": "ISFJ และ INTJ มีความแตกต่างในการมองโลก INTJ เน้นตรรกะและนวัตกรรม ในขณะที่ ISFJ เน้นประเพณีและความรู้สึก แต่สามารถเรียนรู้จากกันได้" },
-      "ENTJ": { "compatibility": "60%", "description": "ISFJ และ ENTJ มีความแตกต่างมาก ENTJ อาจดูก้าวร้าวเกินไปสำหรับ ISFJ แต่ ENTJ สามารถช่วยให้ ISFJ พัฒนาความมั่นใจได้" },
-      "INFP": { "compatibility": "76%", "description": "ISFJ และ INFP มีความเข้าใจในความรู้สึกของผู้อื่น แต่ INFP มักจะมีความคิดที่เป็นนามธรรมมากกว่า ทั้งคู่สามารถสร้างความสัมพันธ์ที่อบอุ่นได้" },
-      "ENFP": { "compatibility": "70%", "description": "ISFJ และ ENFP มีความแตกต่างในการใช้ชีวิต ENFP ชอบการเปลี่ยนแปลงและความตื่นเต้น ในขณะที่ ISFJ ชอบความมั่นคง แต่สามารถเติมเต็มกันได้" },
-      "INTP": { "compatibility": "68%", "description": "ISFJ และ INTP มีความแตกต่างในการตัดสินใจ INTP เน้นตรรกะ ในขณะที่ ISFJ เน้นความรู้สึก แต่สามารถเรียนรู้มุมมองใหม่ๆ จากกันได้" },
-      "ENTP": { "compatibility": "62%", "description": "ISFJ และ ENTP มีความแตกต่างมาก ENTP ชอบโต้แย้งและท้าทาย ซึ่งอาจทำให้ ISFJ รู้สึกไม่มั่นคง แต่ ENTP สามารถช่วยให้ ISFJ มองโลกกว้างขึ้น" },
-      "ISFP": { "compatibility": "82%", "description": "ISFJ และ ISFP มีความอ่อนโยนและใส่ใจผู้อื่นเหมือนกัน แต่ ISFP มักจะยืดหยุ่นกว่าในการทำตามกฎระเบียบ ทั้งคู่สามารถสร้างความสัมพันธ์ที่อบอุ่นได้" },
-      "ESFP": { "compatibility": "75%", "description": "ISFJ และ ESFP มีความแตกต่างในการใช้ชีวิต ESFP ชอบความสนุกและการผจญภัย ในขณะที่ ISFJ ชอบความมั่นคง แต่ ESFP สามารถช่วยให้ ISFJ ผ่อนคลายได้" },
-      "ISTP": { "compatibility": "72%", "description": "ISFJ และ ISTP มีความเงียบและชอบสังเกตเหมือนกัน แต่ ISTP มักจะเป็นอิสระมากกว่า ในขณะที่ ISFJ ยึดติดกับความรับผิดชอบมากกว่า" },
-      "ESTP": { "compatibility": "65%", "description": "ISFJ และ ESTP มีความแตกต่างในการมองโลก ESTP ชอบความเสี่ยงและการผจญภัย ในขณะที่ ISFJ ชอบความปลอดภัยและความมั่นคง"
+      "ISFJ": { "compatibility": "88%", "description": "两个ISFJ通常彼此理解，因为他们有相似的价值观与关怀。双方都重视稳定与相互照顾，但可能难以表达自身需求。" },
+      "ESFJ": { "compatibility": "85%", "description": "ISFJ与ESFJ在照顾他人方面相互理解。ESFJ通常在社交中担任领导者，而ISFJ在幕后提供支持，形成平衡。" },
+      "ISTJ": { "compatibility": "88%", "description": "ISFJ与ISTJ同样负责任且可靠，但ISFJ比ISTJ更温柔，有助于弥补ISTJ理性的一面。" },
+      "ESTJ": { "compatibility": "78%", "description": "ISFJ与ESTJ同样负责任，但ESTJ可能对更温柔的ISFJ来说显得过于强硬。然而，双方可以组成高效的团队。" },
+      "INFJ": { "compatibility": "82%", "description": "ISFJ与INFJ都善于理解他人感受，但INFJ通常着眼于大局，而ISFJ注重当下的细节。双方可以互相学习。" },
+      "ENFJ": { "compatibility": "75%", "description": "ISFJ与ENFJ同样关心他人，但ENFJ通常比ISFJ更积极热情，这可能让ISFJ感到不舒服。" },
+      "INTJ": { "compatibility": "65%", "description": "ISFJ与INTJ对世界的看法不同。INTJ注重逻辑与创新，而ISFJ注重传统与情感，但双方可以互相学习。" },
+      "ENTJ": { "compatibility": "60%", "description": "ISFJ与ENTJ差异很大。ENTJ对ISFJ来说可能显得过于强势，但ENTJ可以帮助ISFJ建立信心。" },
+      "INFP": { "compatibility": "76%", "description": "ISFJ与INFP都善于理解他人感受，但INFP通常有更抽象的思维。双方可以建立温暖的关系。" },
+      "ENFP": { "compatibility": "70%", "description": "ISFJ与ENFP在生活方式上有所不同。ENFP喜欢变化与刺激，而ISFJ喜欢稳定，但双方可以互补。" },
+      "INTP": { "compatibility": "68%", "description": "ISFJ与INTP在决策方式上有所不同。INTP注重逻辑，而ISFJ注重情感，但双方可以从彼此身上获得新视角。" },
+      "ENTP": { "compatibility": "62%", "description": "ISFJ与ENTP差异很大。ENTP喜欢争论与挑战，这可能让ISFJ感到不安，但ENTP可以帮助ISFJ拓宽视野。" },
+      "ISFP": { "compatibility": "82%", "description": "ISFJ与ISFP同样温柔且关心他人，但ISFP在遵守规则方面通常比ISFJ更灵活。双方可以建立温暖的关系。" },
+      "ESFP": { "compatibility": "75%", "description": "ISFJ与ESFP在生活方式上有所不同。ESFP喜欢乐趣与冒险，而ISFJ喜欢稳定，但ESFP可以帮助ISFJ放松。" },
+      "ISTP": { "compatibility": "72%", "description": "ISFJ与ISTP同样安静且善于观察，但ISTP通常比ISFJ更独立，而ISFJ更坚守责任。" },
+      "ESTP": { "compatibility": "65%", "description": "ISFJ与ESTP对世界的看法不同。ESTP喜欢冒险，而ISFJ喜欢安全与稳定。"
       }
     },
     "ESTJ": {
-      "ESTJ": { "compatibility": "85%", "description": "ESTJ สองคนมักเข้าใจกันเป็นอย่างดีเพราะมีค่านิยมและความคิดคล้ายกัน ทั้งคู่ชอบความเป็นระเบียบและโครงสร้าง แต่ปัญหาอาจเกิดขึ้นเมื่อทั้งคู่ชอบควบคุมและไม่ยืดหยุ่น" },
-      "ISTJ": { "compatibility": "90%", "description": "ESTJ และ ISTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นระเบียบและโครงสร้าง ISTJ ช่วยให้ ESTJ รู้สึกมั่นคง ในขณะที่ ESTJ ให้ความกระตือรือร้นและความเป็นผู้นำแก่ ISTJ" },
-      "ESFJ": { "compatibility": "92%", "description": "ESTJ และ ESFJ มักถูกดึงดูดกันเพราะทั้งคู่ชอบความเป็นระเบียบและใส่ใจคนอื่น ESFJ ช่วยให้ ESTJ รู้สึกอบอุ่น ในขณะที่ ESTJ ให้ความมั่นคงและความเป็นผู้นำแก่ ESFJ" },
-      "ISFJ": { "compatibility": "88%", "description": "ESTJ และ ISFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นระเบียบและใส่ใจคนอื่น แต่ ISFJ อาจดูอ่อนไหวเกินไปสำหรับ ESTJ ที่ชอบความชัดเจน" },
-      "ENTJ": { "compatibility": "85%", "description": "ESTJ และ ENTJ มักสนุกกับการแลกเปลี่ยนความคิดเห็นเพราะทั้งคู่ชอบความคิดเชิงกลยุทธ์ อย่างไรก็ตาม ENTJ อาจดูชอบควบคุมเกินไปสำหรับ ESTJ ที่ชอบความเป็นผู้นำ" },
-      "INTJ": { "compatibility": "75%", "description": "ESTJ และ INTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดเชิงกลยุทธ์และวิสัยทัศน์ แต่ INTJ อาจดูเย็นชาเกินไปสำหรับ ESTJ ที่ต้องการความอบอุ่นทางอารมณ์" },
-      "ENTP": { "compatibility": "70%", "description": "ESTJ และ ENTP มักดึงดูดกันเพราะทั้งคู่ชอบความคิดเชิงลึก แต่ ENTP อาจดูชอบโต้แย้งเกินไปสำหรับ ESTJ ที่ต้องการความชัดเจน" },
-      "INTP": { "compatibility": "65%", "description": "ESTJ และ INTP อาจเข้ากันได้ยากเพราะ INTP ชอบความเป็นอิสระและการคิดเชิงทฤษฎี ในขณะที่ ESTJ ชอบความเป็นระเบียบและการปฏิบัติ" },
-      "ESTP": { "compatibility": "80%", "description": "ESTJ และ ESTP มักเข้ากันได้ดีเพราะทั้งคู่ชอบการกระทำและความตื่นเต้น แต่ ESTP อาจดูไม่ชอบวางแผนสำหรับ ESTJ ที่ชอบการเตรียมการล่วงหน้า" },
-      "ISTP": { "compatibility": "75%", "description": "ESTJ และ ISTP มักเข้าใจกันดีเพราะทั้งคู่ชอบการกระทำและความเป็นอิสระ แต่ ISTP อาจดูไม่ชอบวางแผนสำหรับ ESTJ ที่ชอบการเตรียมการล่วงหน้า" },
-      "ESFP": { "compatibility": "70%", "description": "ESTJ และ ESFP อาจมีปัญหาการสื่อสารเพราะ ESFP ชอบความสนุกสนานและสังคม ในขณะที่ ESTJ ชอบความเป็นระเบียบและโครงสร้าง แต่ ESFP สามารถช่วยให้ ESTJ ผ่อนคลายได้" },
-      "ISFP": { "compatibility": "65%", "description": "ESTJ และ ISFP อาจเข้ากันได้ยากเพราะ ISFP ชอบความเป็นอิสระและความยืดหยุ่น ในขณะที่ ESTJ ชอบความเป็นระเบียบและโครงสร้าง" },
-      "ENFJ": { "compatibility": "75%", "description": "ESTJ และ ENFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นผู้นำและใส่ใจคนอื่น แต่ ENFJ อาจดูอ่อนไหวเกินไปสำหรับ ESTJ ที่ชอบความชัดเจน" },
-      "INFJ": { "compatibility": "60%", "description": "ESTJ และ INFJ อาจเข้ากันได้ยากเพราะ INFJ ชอบความลึกซึ้งและความหมาย ในขณะที่ ESTJ ชอบความเป็นระเบียบและโครงสร้าง" },
-      "ENFP": { "compatibility": "55%", "description": "ESTJ และ ENFP อาจขัดแย้งกันเพราะ ENFP ชอบความยืดหยุ่นและความคิดสร้างสรรค์ ในขณะที่ ESTJ ชอบความเป็นระเบียบและโครงสร้าง" },
-      "INFP": { "compatibility": "50%", "description": "ESTJ และ INFP อาจเข้ากันได้ยากเพราะ INFP ชอบความลึกซึ้งและความหมาย ในขณะที่ ESTJ ชอบความเป็นระเบียบและโครงสร้าง"
+      "ESTJ": { "compatibility": "85%", "description": "两个ESTJ通常彼此理解，因为他们有相似的价值观和思维方式。双方都喜欢秩序与结构，但当两人都喜欢控制且不够灵活时，问题便可能出现。" },
+      "ISTJ": { "compatibility": "90%", "description": "ESTJ与ISTJ通常相处融洽，因为双方都喜欢秩序与结构。ISTJ帮助ESTJ感到稳定，而ESTJ则为ISTJ带来热情与领导力。" },
+      "ESFJ": { "compatibility": "92%", "description": "ESTJ与ESFJ往往相互吸引，因为双方都喜欢秩序且关心他人。ESFJ帮助ESTJ感到温暖，而ESTJ则为ESFJ提供稳定与领导力。" },
+      "ISFJ": { "compatibility": "88%", "description": "ESTJ与ISFJ通常相处融洽，因为双方都喜欢秩序且关心他人。但ISFJ有时显得过于敏感，而ESTJ喜欢清晰直接。" },
+      "ENTJ": { "compatibility": "85%", "description": "ESTJ与ENTJ通常享受思想交流，因为双方都喜欢战略思维。然而，ENTJ有时显得过于控制，而ESTJ喜欢担任领导者。" },
+      "INTJ": { "compatibility": "75%", "description": "ESTJ与INTJ通常相处融洽，因为双方都喜欢战略思维与远见。但INTJ有时显得过于冷淡，而ESTJ需要情感上的温暖。" },
+      "ENTP": { "compatibility": "70%", "description": "ESTJ与ENTP往往相互吸引，因为双方都喜欢深度思考。但ENTP有时显得过于喜欢争论，而ESTJ需要清晰直接。" },
+      "INTP": { "compatibility": "65%", "description": "ESTJ与INTP可能较难相处，因为INTP喜欢独立与理论思考，而ESTJ喜欢秩序与实践。" },
+      "ESTP": { "compatibility": "80%", "description": "ESTJ与ESTP通常相处融洽，因为双方都喜欢行动与刺激。但ESTP有时显得不喜欢计划，而ESTJ喜欢提前准备。" },
+      "ISTP": { "compatibility": "75%", "description": "ESTJ与ISTP通常彼此理解，因为双方都喜欢行动与独立。但ISTP有时显得不喜欢计划，而ESTJ喜欢提前准备。" },
+      "ESFP": { "compatibility": "70%", "description": "ESTJ与ESFP可能存在沟通问题，因为ESFP喜欢欢乐与社交，而ESTJ喜欢秩序与结构。但ESFP能帮助ESTJ放松。" },
+      "ISFP": { "compatibility": "65%", "description": "ESTJ与ISFP可能较难相处，因为ISFP喜欢独立与灵活，而ESTJ喜欢秩序与结构。" },
+      "ENFJ": { "compatibility": "75%", "description": "ESTJ与ENFJ通常相处融洽，因为双方都喜欢领导且关心他人。但ENFJ有时显得过于敏感，而ESTJ喜欢清晰直接。" },
+      "INFJ": { "compatibility": "60%", "description": "ESTJ与INFJ可能较难相处，因为INFJ喜欢深度与意义，而ESTJ喜欢秩序与结构。" },
+      "ENFP": { "compatibility": "55%", "description": "ESTJ与ENFP可能产生冲突，因为ENFP喜欢灵活与创造性，而ESTJ喜欢秩序与结构。" },
+      "INFP": { "compatibility": "50%", "description": "ESTJ与INFP可能较难相处，因为INFP喜欢深度与意义，而ESTJ喜欢秩序与结构。"
       }
     },
     "ESFJ": {
-      "ESFJ": { "compatibility": "85%", "description": "ESFJ สองคนมักเข้าใจกันเป็นอย่างดีเพราะมีค่านิยมและความคิดคล้ายกัน ทั้งคู่ชอบความอบอุ่นและความสัมพันธ์ที่ใกล้ชิด แต่ปัญหาอาจเกิดขึ้นเมื่อทั้งคู่ชอบควบคุมและไม่ยืดหยุ่น" },
-      "ISFJ": { "compatibility": "90%", "description": "ESFJ และ ISFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความอบอุ่นและใส่ใจคนอื่น ISFJ ช่วยให้ ESFJ รู้สึกมั่นคง ในขณะที่ ESFJ ให้ความกระตือรือร้นและความเป็นผู้นำแก่ ISFJ" },
-      "ESTJ": { "compatibility": "92%", "description": "ESFJ และ ESTJ มักถูกดึงดูดกันเพราะทั้งคู่ชอบความเป็นระเบียบและใส่ใจคนอื่น ESTJ ช่วยให้ ESFJ รู้สึกมั่นคง ในขณะที่ ESFJ ให้ความอบอุ่นและความเอาใจใส่แก่ ESTJ" },
-      "ISTJ": { "compatibility": "88%", "description": "ESFJ และ ISTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นระเบียบและใส่ใจคนอื่น แต่ ISTJ อาจดูเย็นชาเกินไปสำหรับ ESFJ ที่ต้องการความอบอุ่น" },
-      "ENFJ": { "compatibility": "85%", "description": "ESFJ และ ENFJ มักสนุกกับการแลกเปลี่ยนความคิดเห็นเพราะทั้งคู่ชอบความคิดสร้างสรรค์ อย่างไรก็ตาม ENFJ อาจดูชอบควบคุมเกินไปสำหรับ ESFJ ที่ชอบความเป็นผู้นำ" },
-      "INFJ": { "compatibility": "75%", "description": "ESFJ และ INFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดสร้างสรรค์และวิสัยทัศน์ แต่ INFJ อาจดูเย็นชาเกินไปสำหรับ ESFJ ที่ต้องการความอบอุ่นทางอารมณ์" },
-      "ENFP": { "compatibility": "70%", "description": "ESFJ และ ENFP มักดึงดูดกันเพราะทั้งคู่ชอบความคิดสร้างสรรค์ แต่ ENFP อาจดูชอบโต้แย้งเกินไปสำหรับ ESFJ ที่ต้องการความชัดเจน" },
-      "INFP": { "compatibility": "65%", "description": "ESFJ และ INFP อาจเข้ากันได้ยากเพราะ INFP ชอบความเป็นอิสระและการคิดเชิงทฤษฎี ในขณะที่ ESFJ ชอบความเป็นระเบียบและการปฏิบัติ" },
-      "ESFP": { "compatibility": "80%", "description": "ESFJ และ ESFP มักเข้ากันได้ดีเพราะทั้งคู่ชอบการกระทำและความตื่นเต้น แต่ ESFP อาจดูไม่ชอบวางแผนสำหรับ ESFJ ที่ชอบการเตรียมการล่วงหน้า" },
-      "ISFP": { "compatibility": "75%", "description": "ESFJ และ ISFP มักเข้าใจกันดีเพราะทั้งคู่ชอบการกระทำและความเป็นอิสระ แต่ ISFP อาจดูไม่ชอบวางแผนสำหรับ ESFJ ที่ชอบการเตรียมการล่วงหน้า" },
-      "ESTP": { "compatibility": "70%", "description": "ESFJ และ ESTP อาจมีปัญหาการสื่อสารเพราะ ESTP ชอบความสนุกสนานและสังคม ในขณะที่ ESFJ ชอบความเป็นระเบียบและโครงสร้าง แต่ ESTP สามารถช่วยให้ ESFJ ผ่อนคลายได้" },
-      "ISTP": { "compatibility": "65%", "description": "ESFJ และ ISTP อาจเข้ากันได้ยากเพราะ ISTP ชอบความเป็นอิสระและความยืดหยุ่น ในขณะที่ ESFJ ชอบความเป็นระเบียบและโครงสร้าง" },
-      "ENTJ": { "compatibility": "75%", "description": "ESFJ และ ENTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นผู้นำและใส่ใจคนอื่น แต่ ENTJ อาจดูอ่อนไหวเกินไปสำหรับ ESFJ ที่ชอบความชัดเจน" },
-      "INTJ": { "compatibility": "60%", "description": "ESFJ และ INTJ อาจเข้ากันได้ยากเพราะ INTJ ชอบความลึกซึ้งและความหมาย ในขณะที่ ESFJ ชอบความเป็นระเบียบและโครงสร้าง" },
-      "ENTP": { "compatibility": "55%", "description": "ESFJ และ ENTP อาจขัดแย้งกันเพราะ ENTP ชอบความยืดหยุ่นและความคิดสร้างสรรค์ ในขณะที่ ESFJ ชอบความเป็นระเบียบและโครงสร้าง" },
-      "INTP": { "compatibility": "50%", "description": "ESFJ และ INTP อาจเข้ากันได้ยากเพราะ INTP ชอบความลึกซึ้งและความหมาย ในขณะที่ ESFJ ชอบความเป็นระเบียบและโครงสร้าง"
+      "ESFJ": { "compatibility": "85%", "description": "两个ESFJ通常彼此理解，因为他们有相似的价值观和思维方式。双方都喜欢温暖与亲密的关系，但当两人都喜欢控制且不够灵活时，问题便可能出现。" },
+      "ISFJ": { "compatibility": "90%", "description": "ESFJ与ISFJ通常相处融洽，因为双方都喜欢温暖且关心他人。ISFJ帮助ESFJ感到稳定，而ESFJ则为ISFJ带来热情与领导力。" },
+      "ESTJ": { "compatibility": "92%", "description": "ESFJ与ESTJ往往相互吸引，因为双方都喜欢秩序且关心他人。ESTJ帮助ESFJ感到稳定，而ESFJ则为ESTJ带来温暖与关怀。" },
+      "ISTJ": { "compatibility": "88%", "description": "ESFJ与ISTJ通常相处融洽，因为双方都喜欢秩序且关心他人。但ISTJ有时显得过于冷淡，而ESFJ需要温暖。" },
+      "ENFJ": { "compatibility": "85%", "description": "ESFJ与ENFJ通常享受思想交流，因为双方都喜欢创造性。然而，ENFJ有时显得过于控制，而ESFJ喜欢担任领导者。" },
+      "INFJ": { "compatibility": "75%", "description": "ESFJ与INFJ通常相处融洽，因为双方都喜欢创造性与远见。但INFJ有时显得过于冷淡，而ESFJ需要情感上的温暖。" },
+      "ENFP": { "compatibility": "70%", "description": "ESFJ与ENFP往往相互吸引，因为双方都喜欢创造性。但ENFP有时显得过于喜欢争论，而ESFJ需要清晰直接。" },
+      "INFP": { "compatibility": "65%", "description": "ESFJ与INFP可能较难相处，因为INFP喜欢独立与理论思考，而ESFJ喜欢秩序与实践。" },
+      "ESFP": { "compatibility": "80%", "description": "ESFJ与ESFP通常相处融洽，因为双方都喜欢行动与刺激。但ESFP有时显得不喜欢计划，而ESFJ喜欢提前准备。" },
+      "ISFP": { "compatibility": "75%", "description": "ESFJ与ISFP通常彼此理解，因为双方都喜欢行动与独立。但ISFP有时显得不喜欢计划，而ESFJ喜欢提前准备。" },
+      "ESTP": { "compatibility": "70%", "description": "ESFJ与ESTP可能存在沟通问题，因为ESTP喜欢欢乐与社交，而ESFJ喜欢秩序与结构。但ESTP能帮助ESFJ放松。" },
+      "ISTP": { "compatibility": "65%", "description": "ESFJ与ISTP可能较难相处，因为ISTP喜欢独立与灵活，而ESFJ喜欢秩序与结构。" },
+      "ENTJ": { "compatibility": "75%", "description": "ESFJ与ENTJ通常相处融洽，因为双方都喜欢领导且关心他人。但ENTJ有时显得过于敏感，而ESFJ喜欢清晰直接。" },
+      "INTJ": { "compatibility": "60%", "description": "ESFJ与INTJ可能较难相处，因为INTJ喜欢深度与意义，而ESFJ喜欢秩序与结构。" },
+      "ENTP": { "compatibility": "55%", "description": "ESFJ与ENTP可能产生冲突，因为ENTP喜欢灵活与创造性，而ESFJ喜欢秩序与结构。" },
+      "INTP": { "compatibility": "50%", "description": "ESFJ与INTP可能较难相处，因为INTP喜欢深度与意义，而ESFJ喜欢秩序与结构。"
       }
     },
     "INTJ": {
-      "INTJ": { "compatibility": "85%", "description": "INTJ สองคนมักเข้าใจกันดีเพราะมีวิธีคิดและการมองโลกที่คล้ายกัน ทั้งคู่ให้คุณค่ากับความเป็นส่วนตัวและการพัฒนาตนเอง แต่อาจมีปัญหาในการแสดงออกทางอารมณ์" },
-      "ENTJ": { "compatibility": "90%", "description": "INTJ และ ENTJ มักเข้ากันได้ดีมากเพราะทั้งคู่มีความทะเยอทะยานและชอบความท้าทายทางปัญญา ENTJ ช่วยให้ INTJ เปิดกว้างขึ้น ในขณะที่ INTJ ช่วยให้ ENTJ คิดรอบคอบมากขึ้น" },
-      "INTP": { "compatibility": "88%", "description": "INTJ และ INTP มักถูกดึงดูดกันด้วยความสนใจในการวิเคราะห์และทฤษฎี ทั้งคู่สามารถมีการสนทนาที่ลึกซึ้งและน่าสนใจ แม้ว่า INTP อาจจะไม่เป็นระบบพอสำหรับ INTJ" },
-      "ENTP": { "compatibility": "85%", "description": "INTJ และ ENTP มักมีการแลกเปลี่ยนความคิดที่น่าสนใจ ทั้งคู่ชอบการโต้เถียงทางปัญญา แต่ ENTP อาจดูวุ่นวายเกินไปสำหรับ INTJ ที่ชอบความเป็นระเบียบ" },
-      "INFJ": { "compatibility": "82%", "description": "INTJ และ INFJ มักเข้าใจกันดีเพราะทั้งคู่มีความลึกซึ้งและมองการณ์ไกล แต่ INFJ อาจดูอ่อนไหวเกินไปสำหรับ INTJ ที่ชอบความมีเหตุผล" },
-      "ENFJ": { "compatibility": "75%", "description": "INTJ และ ENFJ สามารถเติมเต็มจุดอ่อนของกันและกัน ENFJ ช่วยให้ INTJ พัฒนาด้านอารมณ์ ในขณะที่ INTJ ช่วยให้ ENFJ มีเหตุผลมากขึ้น" },
-      "INFP": { "compatibility": "70%", "description": "INTJ และ INFP มักแบ่งปันความสนใจในแนวคิดที่ลึกซึ้ง แต่วิธีการเข้าถึงอาจแตกต่างกัน INFP อาจดูอ่อนไหวเกินไปสำหรับ INTJ" },
-      "ENFP": { "compatibility": "80%", "description": "INTJ และ ENFP มักดึงดูดกันแบบตรงข้าม ENFP นำความสนุกและความคิดสร้างสรรค์มาสู่ชีวิตของ INTJ แต่อาจมีความขัดแย้งในเรื่องการจัดการ" },
-      "ISTJ": { "compatibility": "65%", "description": "INTJ และ ISTJ มีความเป็นระเบียบเหมือนกัน แต่ ISTJ อาจดูยึดติดกับประเพณีเกินไปสำหรับ INTJ ที่ชอบนวัตกรรม" },
-      "ESTJ": { "compatibility": "60%", "description": "INTJ และ ESTJ อาจมีปัญหาในการสื่อสารเพราะ ESTJ มักเน้นการปฏิบัติและกฎระเบียบ ในขณะที่ INTJ ชอบคิดนอกกรอบ" },
-      "ISFJ": { "compatibility": "55%", "description": "INTJ และ ISFJ มักมีความยากลำบากในการเข้าใจกัน ISFJ อาจดูอนุรักษ์นิยมเกินไปสำหรับ INTJ ที่ชอบการเปลี่ยนแปลง" },
-      "ESFJ": { "compatibility": "50%", "description": "INTJ และ ESFJ มักมีความยากลำบากในการสื่อสาร ESFJ อาจดูเน้นอารมณ์เกินไปสำหรับ INTJ ที่ชอบความมีเหตุผล" },
-      "ISTP": { "compatibility": "70%", "description": "INTJ และ ISTP มักเข้าใจการทำงานของกันและกัน แต่ ISTP อาจดูไม่มีเป้าหมายระยะยาวพอสำหรับ INTJ" },
-      "ESTP": { "compatibility": "45%", "description": "INTJ และ ESTP มักมีความยากลำบากในการเข้าใจกัน ESTP อาจดูหุนหันพลันแล่นเกินไปสำหรับ INTJ ที่ชอบการวางแผน" },
-      "ISFP": { "compatibility": "40%", "description": "INTJ และ ISFP มักมีความยากลำบากในการสื่อสาร ISFP อาจดูไม่มีโครงสร้างพอสำหรับ INTJ ที่ชอบระบบ" },
-      "ESFP": { "compatibility": "35%", "description": "INTJ และ ESFP มักมีความยากลำบากมากที่สุดในการเข้าใจกัน ESFP อาจดูฉาบฉวยเกินไปสำหรับ INTJ ที่ชอบความลึกซึ้ง"
+      "INTJ": { "compatibility": "85%", "description": "两个INTJ通常彼此理解，因为他们有相似的思维方式和世界观。双方都重视隐私与自我提升，但可能在情感表达方面遇到困难。" },
+      "ENTJ": { "compatibility": "90%", "description": "INTJ与ENTJ通常非常相容，因为双方都有抱负，喜欢智力挑战。ENTJ帮助INTJ更加开放，而INTJ帮助ENTJ更加深思熟虑。" },
+      "INTP": { "compatibility": "88%", "description": "INTJ与INTP往往因对分析和理论的共同兴趣而相互吸引。双方可以进行深刻而有趣的对话，尽管INTP对INTJ来说可能不够系统。" },
+      "ENTP": { "compatibility": "85%", "description": "INTJ与ENTP常有有趣的思想交流，双方都喜欢智力辩论，但ENTP对喜欢秩序的INTJ来说可能显得过于混乱。" },
+      "INFJ": { "compatibility": "82%", "description": "INTJ与INFJ通常彼此理解，因为双方都有深度与远见，但INFJ对喜欢理性的INTJ来说可能显得过于敏感。" },
+      "ENFJ": { "compatibility": "75%", "description": "INTJ与ENFJ可以弥补彼此的弱点。ENFJ帮助INTJ发展情感，而INTJ帮助ENFJ更加理性。" },
+      "INFP": { "compatibility": "70%", "description": "INTJ与INFP通常共享对深刻思想的兴趣，但接近方式可能不同。INFP对INTJ来说可能显得过于敏感。" },
+      "ENFP": { "compatibility": "80%", "description": "INTJ与ENFP常以对立方式相互吸引。ENFP为INTJ的生活带来乐趣与创造力，但可能在管理方面存在冲突。" },
+      "ISTJ": { "compatibility": "65%", "description": "INTJ与ISTJ同样有条理，但ISTJ对喜欢创新的INTJ来说可能显得过于固守传统。" },
+      "ESTJ": { "compatibility": "60%", "description": "INTJ与ESTJ在沟通上可能存在问题，因为ESTJ通常强调实践与规则，而INTJ喜欢突破常规。" },
+      "ISFJ": { "compatibility": "55%", "description": "INTJ与ISFJ通常难以相互理解。ISFJ对喜欢变化的INTJ来说可能显得过于保守。" },
+      "ESFJ": { "compatibility": "50%", "description": "INTJ与ESFJ在沟通上通常存在困难。ESFJ对喜欢理性的INTJ来说可能显得过于注重情感。" },
+      "ISTP": { "compatibility": "70%", "description": "INTJ与ISTP通常理解彼此的工作方式，但ISTP对INTJ来说可能显得缺乏长期目标。" },
+      "ESTP": { "compatibility": "45%", "description": "INTJ与ESTP通常难以相互理解。ESTP对喜欢计划的INTJ来说可能显得过于冲动。" },
+      "ISFP": { "compatibility": "40%", "description": "INTJ与ISFP在沟通上通常存在困难。ISFP对喜欢系统的INTJ来说可能显得过于缺乏结构。" },
+      "ESFP": { "compatibility": "35%", "description": "INTJ与ESFP在相互理解方面通常最为困难。ESFP对喜欢深度的INTJ来说可能显得过于肤浅。"
       }
     },
     "INTP": {
-      "INTP": { "compatibility": "85%", "description": "INTP สองคนมักเข้าใจกันดีเยี่ยมในด้านความคิดและการใช้ตรรกะ ทั้งคู่สามารถมีการสนทนาที่ลึกซึ้งและน่าสนใจ แต่อาจมีปัญหาในการจัดการชีวิตประจำวันและการแสดงออกทางอารมณ์" },
-      "ENTP": { "compatibility": "92%", "description": "INTP และ ENTP มักเข้ากันได้ดีมาก เพราะทั้งคู่ชอบการอภิปรายทางปัญญาและการสำรวจแนวคิดใหม่ๆ ENTP ช่วยให้ INTP เปิดกว้างทางสังคมมากขึ้น ในขณะที่ INTP ช่วยให้ ENTP คิดลึกซึ้งขึ้น" },
-      "INTJ": { "compatibility": "88%", "description": "INTP และ INTJ มักถูกดึงดูดกันด้วยความสนใจในการวิเคราะห์และทฤษฎี ทั้งคู่ชอบการคิดเชิงระบบ แม้ว่า INTJ อาจจะเป็นระเบียบมากเกินไปสำหรับ INTP ที่ยืดหยุ่นกว่า" },
-      "ENTJ": { "compatibility": "85%", "description": "INTP และ ENTJ มักมีความสัมพันธ์ที่น่าสนใจ ENTJ ชื่นชมความฉลาดของ INTP ในขณะที่ INTP ชื่นชมความมุ่งมั่นของ ENTJ แต่อาจมีความขัดแย้งในเรื่องการควบคุม" },
-      "INFJ": { "compatibility": "80%", "description": "INTP และ INFJ มักดึงดูดกันด้วยความสนใจในการค้นหาความจริงและความหมายที่ลึกซึ้ง INFJ ช่วยให้ INTP เข้าใจอารมณ์มากขึ้น ในขณะที่ INTP ช่วยให้ INFJ มีมุมมองที่เป็นตรรกะมากขึ้น" },
-      "ENFJ": { "compatibility": "75%", "description": "INTP และ ENFJ มักเติมเต็มซึ่งกันและกัน ENFJ ช่วยให้ INTP พัฒนาทักษะทางสังคม ในขณะที่ INTP ช่วยให้ ENFJ มีมุมมองที่เป็นกลางมากขึ้น" },
-      "INFP": { "compatibility": "78%", "description": "INTP และ INFP มักแบ่งปันความสนใจในการสำรวจแนวคิดและทฤษฎี แม้ว่าจะมีวิธีการที่แตกต่างกัน INFP ช่วยให้ INTP เข้าใจคุณค่าและความรู้สึกมากขึ้น" },
-      "ENFP": { "compatibility": "82%", "description": "INTP และ ENFP มักดึงดูดกันด้วยความคิดสร้างสรรค์และการสำรวจความเป็นไปได้ใหม่ๆ ENFP นำความสนุกและความกระตือรือร้นมาสู่ชีวิตของ INTP" },
-      "ISTJ": { "compatibility": "60%", "description": "INTP และ ISTJ อาจมีความยากลำบากในการเข้าใจกัน ISTJ อาจดูยึดติดกับกฎระเบียบเกินไปสำหรับ INTP ที่ชอบความยืดหยุ่น" },
-      "ESTJ": { "compatibility": "55%", "description": "INTP และ ESTJ มักมีมุมมองที่แตกต่างกันมาก ESTJ อาจดูเน้นการควบคุมเกินไปสำหรับ INTP ที่ต้องการอิสระในการคิด" },
-      "ISFJ": { "compatibility": "50%", "description": "INTP และ ISFJ มักมีความยากลำบากในการสื่อสาร ISFJ อาจดูเน้นรายละเอียดและประเพณีเกินไปสำหรับ INTP" },
-      "ESFJ": { "compatibility": "45%", "description": "INTP และ ESFJ มักมีความยากลำบากในการเข้าใจกัน ESFJ อาจดูเน้นการเข้าสังคมและกฎเกณฑ์เกินไปสำหรับ INTP" },
-      "ISTP": { "compatibility": "75%", "description": "INTP และ ISTP มักเข้าใจกันดีในด้านการคิดเชิงตรรกะ แม้ว่า ISTP จะเน้นการปฏิบัติมากกว่าทฤษฎี" },
-      "ESTP": { "compatibility": "50%", "description": "INTP และ ESTP มักมีความยากลำบากในการเข้าใจกัน ESTP อาจดูเน้นการกระทำและความตื่นเต้นเกินไปสำหรับ INTP" },
-      "ISFP": { "compatibility": "45%", "description": "INTP และ ISFP มักมีความยากลำบากในการสื่อสาร ISFP อาจดูเน้นความรู้สึกและประสบการณ์เกินไปสำหรับ INTP" },
-      "ESFP": { "compatibility": "40%", "description": "INTP และ ESFP มักมีความยากลำบากมากที่สุดในการเข้าใจกัน ESFP อาจดูเน้นความสนุกสนานและการเข้าสังคมเกินไปสำหรับ INTP"
+      "INTP": { "compatibility": "85%", "description": "两个INTP在思维和逻辑方面通常相互理解极好，双方可以进行深刻而有趣的对话，但在管理日常生活和情感表达方面可能存在困难。" },
+      "ENTP": { "compatibility": "92%", "description": "INTP与ENTP通常非常相容，因为双方都喜欢智力讨论和探索新概念。ENTP帮助INTP在社交方面更加开放，而INTP帮助ENTP思考更加深入。" },
+      "INTJ": { "compatibility": "88%", "description": "INTP与INTJ往往因对分析和理论的共同兴趣而相互吸引，双方都喜欢系统思考，尽管INTJ对更灵活的INTP来说可能过于严格。" },
+      "ENTJ": { "compatibility": "85%", "description": "INTP与ENTJ常有有趣的互动关系。ENTJ欣赏INTP的智慧，而INTP欣赏ENTJ的决心，但在控制问题上可能存在冲突。" },
+      "INFJ": { "compatibility": "80%", "description": "INTP与INFJ往往因对寻找真理和深层意义的共同兴趣而相互吸引。INFJ帮助INTP更好地理解情感，而INTP帮助INFJ更具逻辑性。" },
+      "ENFJ": { "compatibility": "75%", "description": "INTP与ENFJ常能互补。ENFJ帮助INTP发展社交技能，而INTP帮助ENFJ拥有更中立的视角。" },
+      "INFP": { "compatibility": "78%", "description": "INTP与INFP通常共享对探索概念和理论的兴趣，尽管方法不同。INFP帮助INTP更好地理解价值观与情感。" },
+      "ENFP": { "compatibility": "82%", "description": "INTP与ENFP往往因创造力和探索新可能性而相互吸引。ENFP为INTP的生活带来乐趣与热情。" },
+      "ISTJ": { "compatibility": "60%", "description": "INTP与ISTJ可能难以相互理解。ISTJ对喜欢灵活的INTP来说可能显得过于固守规则。" },
+      "ESTJ": { "compatibility": "55%", "description": "INTP与ESTJ的看法通常差异很大。ESTJ对需要思维自由的INTP来说可能显得过于控制。" },
+      "ISFJ": { "compatibility": "50%", "description": "INTP与ISFJ在沟通上通常存在困难。ISFJ对INTP来说可能显得过于注重细节与传统。" },
+      "ESFJ": { "compatibility": "45%", "description": "INTP与ESFJ在相互理解方面通常存在困难。ESFJ对INTP来说可能显得过于注重社交与规则。" },
+      "ISTP": { "compatibility": "75%", "description": "INTP与ISTP在逻辑思维方面通常相互理解，尽管ISTP比INTP更注重实践而非理论。" },
+      "ESTP": { "compatibility": "50%", "description": "INTP与ESTP在相互理解方面通常存在困难。ESTP对INTP来说可能显得过于注重行动与刺激。" },
+      "ISFP": { "compatibility": "45%", "description": "INTP与ISFP在沟通上通常存在困难。ISFP对INTP来说可能显得过于注重感受与体验。" },
+      "ESFP": { "compatibility": "40%", "description": "INTP与ESFP在相互理解方面通常最为困难。ESFP对INTP来说可能显得过于注重娱乐与社交。"
       }
     },
     "ENTJ": {
-      "ENTJ": { "compatibility": "75%", "description": "ENTJ สองคนมีความเข้าใจในวิธีคิดและเป้าหมายของกันและกัน แต่อาจมีการแข่งขันสูงและความขัดแย้งในการเป็นผู้นำ ทั้งคู่ต้องเรียนรู้การประนีประนอม" },
-      "INTJ": { "compatibility": "90%", "description": "ENTJ และ INTJ มักเข้ากันได้ดีมาก เพราะทั้งคู่มีความทะเยอทะยานและชอบการวางแผนระยะยาว INTJ ช่วยให้ ENTJ คิดรอบคอบขึ้น ในขณะที่ ENTJ ช่วยให้ INTJ กล้าแสดงออกมากขึ้น" },
-      "INTP": { "compatibility": "85%", "description": "ENTJ และ INTP มักมีการแลกเปลี่ยนความคิดที่น่าสนใจ INTP ชื่นชมความมุ่งมั่นของ ENTJ ในขณะที่ ENTJ ชื่นชมความฉลาดของ INTP แต่อาจมีความขัดแย้งในเรื่องการตัดสินใจ" },
-      "ENTP": { "compatibility": "82%", "description": "ENTJ และ ENTP มักมีพลังงานและความคิดสร้างสรรค์ที่เข้ากันได้ดี ทั้งคู่ชอบการโต้เถียงและการแก้ปัญหา แต่ ENTP อาจดูไม่มีระเบียบพอสำหรับ ENTJ" },
-      "INFJ": { "compatibility": "78%", "description": "ENTJ และ INFJ มักดึงดูดกันแบบตรงข้าม INFJ ช่วยให้ ENTJ พัฒนาด้านอารมณ์ ในขณะที่ ENTJ ช่วยให้ INFJ มีความมั่นใจมากขึ้น" },
-      "ENFJ": { "compatibility": "80%", "description": "ENTJ และ ENFJ มักเข้าใจความเป็นผู้นำของกันและกัน ทั้งคู่มีวิสัยทัศน์และความทะเยอทะยาน แต่ ENFJ อาจดูอ่อนไหวเกินไปสำหรับ ENTJ" },
-      "INFP": { "compatibility": "65%", "description": "ENTJ และ INFP อาจมีความท้าทายในการสื่อสาร INFP อาจรู้สึกถูกครอบงำโดย ENTJ ในขณะที่ ENTJ อาจรู้สึกว่า INFP ไม่มีประสิทธิภาพ" },
-      "ENFP": { "compatibility": "72%", "description": "ENTJ และ ENFP มักแบ่งปันความกระตือรือร้นและความคิดสร้างสรรค์ แต่อาจมีความขัดแย้งในเรื่องการจัดการและการตัดสินใจ" },
-      "ISTJ": { "compatibility": "70%", "description": "ENTJ และ ISTJ มักเข้าใจความสำคัญของการทำงานหนัก แต่ ISTJ อาจดูอนุรักษ์นิยมเกินไปสำหรับ ENTJ ที่ชอบนวัตกรรม" },
-      "ESTJ": { "compatibility": "75%", "description": "ENTJ และ ESTJ มักเข้าใจการทำงานและความมุ่งมั่นของกันและกัน แต่อาจมีการแข่งขันในการเป็นผู้นำ" },
-      "ISFJ": { "compatibility": "55%", "description": "ENTJ และ ISFJ มักมีความยากลำบากในการเข้าใจกัน ISFJ อาจรู้สึกถูกข่มขู่โดยความเข้มแข็งของ ENTJ" },
-      "ESFJ": { "compatibility": "60%", "description": "ENTJ และ ESFJ อาจมีความขัดแย้งในวิธีการจัดการกับสถานการณ์ ESFJ อาจดูเน้นความรู้สึกมากเกินไปสำหรับ ENTJ" },
-      "ISTP": { "compatibility": "68%", "description": "ENTJ และ ISTP มักเข้าใจความเป็นตรรกะของกันและกัน แต่ ISTP อาจรู้สึกถูกควบคุมโดย ENTJ" },
-      "ESTP": { "compatibility": "65%", "description": "ENTJ และ ESTP มักแบ่งปันความกระตือรือร้น แต่อาจมีความขัดแย้งในเรื่องการวางแผนระยะยาว" },
-      "ISFP": { "compatibility": "45%", "description": "ENTJ และ ISFP มักมีความยากลำบากในการเข้าใจกัน ISFP อาจรู้สึกถูกกดดันโดยความเข้มงวดของ ENTJ" },
-      "ESFP": { "compatibility": "50%", "description": "ENTJ และ ESFP มักมีความแตกต่างในการมองโลก ESFP อาจดูไม่จริงจังพอสำหรับ ENTJ"
+      "ENTJ": { "compatibility": "75%", "description": "两个ENTJ相互理解彼此的思维方式和目标，但可能存在激烈竞争和领导冲突。双方都需要学会妥协。" },
+      "INTJ": { "compatibility": "90%", "description": "ENTJ与INTJ通常非常相容，因为双方都有抱负且喜欢长期规划。INTJ帮助ENTJ更加深思熟虑，而ENTJ帮助INTJ更加勇于表达。" },
+      "INTP": { "compatibility": "85%", "description": "ENTJ与INTP常有有趣的思想交流。INTP欣赏ENTJ的决心，而ENTJ欣赏INTP的智慧，但在决策方面可能存在冲突。" },
+      "ENTP": { "compatibility": "82%", "description": "ENTJ与ENTP通常有相容的活力与创造力，双方都喜欢辩论与解决问题，但ENTP对ENTJ来说可能显得不够有条理。" },
+      "INFJ": { "compatibility": "78%", "description": "ENTJ与INFJ常以对立方式相互吸引。INFJ帮助ENTJ发展情感，而ENTJ帮助INFJ更加自信。" },
+      "ENFJ": { "compatibility": "80%", "description": "ENTJ与ENFJ通常理解彼此的领导力，双方都有远见与抱负，但ENFJ对ENTJ来说可能显得过于敏感。" },
+      "INFP": { "compatibility": "65%", "description": "ENTJ与INFP在沟通上可能存在挑战。INFP可能感到被ENTJ主导，而ENTJ可能觉得INFP效率不高。" },
+      "ENFP": { "compatibility": "72%", "description": "ENTJ与ENFP通常共享热情与创造力，但在管理和决策方面可能存在冲突。" },
+      "ISTJ": { "compatibility": "70%", "description": "ENTJ与ISTJ通常理解努力工作的重要性，但ISTJ对喜欢创新的ENTJ来说可能显得过于保守。" },
+      "ESTJ": { "compatibility": "75%", "description": "ENTJ与ESTJ通常理解彼此的工作态度与决心，但可能在领导方面存在竞争。" },
+      "ISFJ": { "compatibility": "55%", "description": "ENTJ与ISFJ在相互理解方面通常存在困难。ISFJ可能觉得受到ENTJ强势的威慑。" },
+      "ESFJ": { "compatibility": "60%", "description": "ENTJ与ESFJ在处理情况的方式上可能存在冲突。ESFJ对ENTJ来说可能显得过于注重情感。" },
+      "ISTP": { "compatibility": "68%", "description": "ENTJ与ISTP通常理解彼此的逻辑性，但ISTP可能感到被ENTJ控制。" },
+      "ESTP": { "compatibility": "65%", "description": "ENTJ与ESTP通常共享热情，但在长期规划方面可能存在冲突。" },
+      "ISFP": { "compatibility": "45%", "description": "ENTJ与ISFP在相互理解方面通常存在困难。ISFP可能感到被ENTJ的严格所压迫。" },
+      "ESFP": { "compatibility": "50%", "description": "ENTJ与ESFP对世界的看法通常不同。ESFP对ENTJ来说可能显得不够认真。"
       }
     },
     "ENTP": {
-      "ENTP": { "compatibility": "80%", "description": "ENTP สองคนมักสนุกกับการแลกเปลี่ยนความคิดและการโต้เถียง ทั้งคู่เข้าใจความต้องการอิสระและการสำรวจแนวคิดใหม่ๆ แต่อาจมีปัญหาในการจัดการชีวิตประจำวันและการตัดสินใจ" },
-      "INTP": { "compatibility": "92%", "description": "ENTP และ INTP มักเข้ากันได้ดีมาก เพราะทั้งคู่ชอบการวิเคราะห์และการสำรวจแนวคิด ENTP ช่วยให้ INTP เปิดกว้างทางสังคม ในขณะที่ INTP ช่วยให้ ENTP คิดลึกซึ้งขึ้น" },
-      "INTJ": { "compatibility": "85%", "description": "ENTP และ INTJ มักมีการแลกเปลี่ยนความคิดที่น่าสนใจ ทั้งคู่ชอบการคิดเชิงระบบ แม้ว่า INTJ อาจรู้สึกว่า ENTP วุ่นวายเกินไป" },
-      "ENTJ": { "compatibility": "82%", "description": "ENTP และ ENTJ มักแบ่งปันความกระตือรือร้นและความทะเยอทะยาน แต่อาจมีการแข่งขันในการเป็นผู้นำความคิด ENTJ อาจรู้สึกว่า ENTP ไม่มีระเบียบพอ" },
-      "INFJ": { "compatibility": "88%", "description": "ENTP และ INFJ มักดึงดูดกันแบบตรงข้าม INFJ ช่วยให้ ENTP เข้าใจอารมณ์มากขึ้น ในขณะที่ ENTP ช่วยให้ INFJ มองโลกในแง่มุมใหม่ๆ" },
-      "ENFJ": { "compatibility": "75%", "description": "ENTP และ ENFJ มักแบ่งปันความกระตือรือร้นและความคิดสร้างสรรค์ แต่ ENFJ อาจรู้สึกว่า ENTP ชอบโต้แย้งมากเกินไป" },
-      "INFP": { "compatibility": "78%", "description": "ENTP และ INFP มักแบ่งปันความสนใจในความคิดสร้างสรรค์ INFP ช่วยให้ ENTP เข้าใจคุณค่าและความรู้สึกมากขึ้น" },
-      "ENFP": { "compatibility": "85%", "description": "ENTP และ ENFP มักสนุกกับการสำรวจความเป็นไปได้ใหม่ๆ ทั้งคู่มีความกระตือรือร้นและความคิดสร้างสรรค์ แต่อาจขาดความมั่นคง" },
-      "ISTJ": { "compatibility": "55%", "description": "ENTP และ ISTJ มักมีความขัดแย้งในวิธีคิด ISTJ อาจรู้สึกว่า ENTP ไม่มีระเบียบและไม่น่าเชื่อถือ" },
-      "ESTJ": { "compatibility": "50%", "description": "ENTP และ ESTJ มักมีความขัดแย้งในวิธีการทำงาน ESTJ อาจรู้สึกว่า ENTP ไม่จริงจังและชอบท้าทายกฎมากเกินไป" },
-      "ISFJ": { "compatibility": "45%", "description": "ENTP และ ISFJ มักมีความยากลำบากในการเข้าใจกัน ISFJ อาจรู้สึกว่า ENTP ไม่มั่นคงและชอบโต้แย้งมากเกินไป" },
-      "ESFJ": { "compatibility": "40%", "description": "ENTP และ ESFJ มักมีมุมมองที่แตกต่างกันมาก ESFJ อาจรู้สึกว่า ENTP ไม่ใส่ใจความรู้สึกของผู้อื่น" },
-      "ISTP": { "compatibility": "72%", "description": "ENTP และ ISTP มักเข้าใจความต้องการอิสระของกันและกัน ทั้งคู่ชอบการแก้ปัญหาแม้จะมีวิธีการที่แตกต่างกัน" },
-      "ESTP": { "compatibility": "68%", "description": "ENTP และ ESTP มักแบ่งปันความกระตือรือร้นและความยืดหยุ่น แต่อาจมีความขัดแย้งในเรื่องความลึกซึ้งของการคิด" },
-      "ISFP": { "compatibility": "45%", "description": "ENTP และ ISFP มักมีความยากลำบากในการสื่อสาร ISFP อาจรู้สึกว่า ENTP ชอบวิเคราะห์มากเกินไป" },
-      "ESFP": { "compatibility": "42%", "description": "ENTP และ ESFP มักมีความยากลำบากในการเข้าใจกัน ESFP อาจรู้สึกว่า ENTP ชอบถกเถียงและซับซ้อนเกินไป"
+      "ENTP": { "compatibility": "80%", "description": "两个ENTP通常喜欢交流思想和辩论，双方理解彼此对自由和探索新概念的需求，但可能在管理日常生活和做出决定方面遇到困难。" },
+      "INTP": { "compatibility": "92%", "description": "ENTP与INTP通常非常相容，因为双方都喜欢分析和探索概念。ENTP帮助INTP在社交方面更加开放，而INTP帮助ENTP思考更加深入。" },
+      "INTJ": { "compatibility": "85%", "description": "ENTP与INTJ常有有趣的思想交流，双方都喜欢系统思考，尽管INTJ可能觉得ENTP过于混乱。" },
+      "ENTJ": { "compatibility": "82%", "description": "ENTP与ENTJ通常共享热情与抱负，但可能在思想领导方面存在竞争。ENTJ可能觉得ENTP不够有条理。" },
+      "INFJ": { "compatibility": "88%", "description": "ENTP与INFJ常以对立方式相互吸引。INFJ帮助ENTP更好地理解情感，而ENTP帮助INFJ以新的角度看世界。" },
+      "ENFJ": { "compatibility": "75%", "description": "ENTP与ENFJ通常共享热情与创造力，但ENFJ可能觉得ENTP过于喜欢争论。" },
+      "INFP": { "compatibility": "78%", "description": "ENTP与INFP通常共享对创造性思维的兴趣。INFP帮助ENTP更好地理解价值观与情感。" },
+      "ENFP": { "compatibility": "85%", "description": "ENTP与ENFP通常喜欢探索新的可能性，双方都有热情与创造力，但可能缺乏稳定性。" },
+      "ISTJ": { "compatibility": "55%", "description": "ENTP与ISTJ在思维方式上通常存在冲突。ISTJ可能觉得ENTP没有条理且不可靠。" },
+      "ESTJ": { "compatibility": "50%", "description": "ENTP与ESTJ在工作方式上通常存在冲突。ESTJ可能觉得ENTP不够认真且过于挑战规则。" },
+      "ISFJ": { "compatibility": "45%", "description": "ENTP与ISFJ在相互理解方面通常存在困难。ISFJ可能觉得ENTP不稳定且过于喜欢争论。" },
+      "ESFJ": { "compatibility": "40%", "description": "ENTP与ESFJ的看法通常差异很大。ESFJ可能觉得ENTP不关心他人的感受。" },
+      "ISTP": { "compatibility": "72%", "description": "ENTP与ISTP通常理解彼此对自由的需求，双方都喜欢解决问题，尽管方法不同。" },
+      "ESTP": { "compatibility": "68%", "description": "ENTP与ESTP通常共享热情与灵活性，但在思维深度方面可能存在冲突。" },
+      "ISFP": { "compatibility": "45%", "description": "ENTP与ISFP在沟通上通常存在困难。ISFP可能觉得ENTP过于喜欢分析。" },
+      "ESFP": { "compatibility": "42%", "description": "ENTP与ESFP在相互理解方面通常存在困难。ESFP可能觉得ENTP过于喜欢争论且太复杂。"
       }
     },
     "ISTP": {
-    "ISTP": { "compatibility": "75%", "description": "ISTP สองคนมักเข้าใจความต้องการอิสระของกันและกัน ทั้งคู่ชอบทำกิจกรรมที่ท้าทายร่วมกัน แต่อาจมีปัญหาในการแสดงความรู้สึกและการสื่อสารทางอารมณ์" },
-    "ESTP": { "compatibility": "85%", "description": "ISTP และ ESTP มักเข้ากันได้ดีเพราะทั้งคู่ชอบการผจญภัยและความท้าทาย ESTP ช่วยให้ ISTP เปิดกว้างทางสังคมมากขึ้น ในขณะที่ ISTP ช่วยให้ ESTP รอบคอบขึ้น" },
-    "ISTJ": { "compatibility": "70%", "description": "ISTP และ ISTJ มักเข้าใจความต้องการความเป็นส่วนตัว แต่อาจมีความขัดแย้งในเรื่องการทำตามกฎระเบียบ ISTJ อาจรู้สึกว่า ISTP ไม่มีระเบียบพอ" },
-    "ESTJ": { "compatibility": "65%", "description": "ISTP และ ESTJ มักมีความขัดแย้งในเรื่องการควบคุม ESTJ อาจพยายามจัดระเบียบ ISTP มากเกินไป ทำให้ ISTP รู้สึกอึดอัด" },
-    "INTP": { "compatibility": "78%", "description": "ISTP และ INTP มักเข้าใจความต้องการอิสระทางความคิด ทั้งคู่ชอบการแก้ปัญหา แม้ว่า INTP จะชอบทฤษฎีมากกว่า ISTP ที่ชอบการปฏิบัติ" },
-    "ENTP": { "compatibility": "72%", "description": "ISTP และ ENTP มักแบ่งปันความสนใจในการแก้ปัญหาและความยืดหยุ่น แต่ ENTP อาจพูดมากเกินไปสำหรับ ISTP" },
-    "INTJ": { "compatibility": "68%", "description": "ISTP และ INTJ มักเข้าใจความต้องการความเป็นส่วนตัว แต่มีวิธีการทำงานที่แตกต่างกัน INTJ อาจวางแผนมากเกินไปสำหรับ ISTP" },
-    "ENTJ": { "compatibility": "62%", "description": "ISTP และ ENTJ อาจมีความขัดแย้งในเรื่องการควบคุม ENTJ อาจพยายามนำมากเกินไปสำหรับ ISTP ที่ชอบอิสระ" },
-    "ISFP": { "compatibility": "75%", "description": "ISTP และ ISFP มักเข้าใจความต้องการอิสระและการแสดงออกของกันและกัน แม้ว่า ISFP จะอ่อนไหวมากกว่า" },
-    "ESFP": { "compatibility": "72%", "description": "ISTP และ ESFP มักสนุกกับกิจกรรมที่ท้าทายร่วมกัน แต่ ESFP อาจต้องการความใกล้ชิดทางอารมณ์มากกว่าที่ ISTP สะดวกใจ" },
-    "ISFJ": { "compatibility": "55%", "description": "ISTP และ ISFJ มักมีความยากลำบากในการเข้าใจกัน ISFJ อาจต้องการความมั่นคงและการแสดงความรู้สึกมากกว่าที่ ISTP ให้ได้" },
-    "ESFJ": { "compatibility": "45%", "description": "ISTP และ ESFJ มักมีความยากลำบากในการสื่อสาร ESFJ อาจรู้สึกว่า ISTP เย็นชาและไม่ใส่ใจความรู้สึก" },
-    "INFP": { "compatibility": "58%", "description": "ISTP และ INFP มักมีความแตกต่างในการมองโลก INFP อาจต้องการการสนับสนุนทางอารมณ์มากกว่าที่ ISTP ถนัด" },
-    "ENFP": { "compatibility": "55%", "description": "ISTP และ ENFP มักมีความแตกต่างในการสื่อสาร ENFP อาจพูดมากและแสดงออกมากเกินไปสำหรับ ISTP" },
-    "INFJ": { "compatibility": "52%", "description": "ISTP และ INFJ มักมีความยากลำบากในการเข้าใจกัน INFJ อาจต้องการความลึกซึ้งทางอารมณ์มากกว่าที่ ISTP สะดวกใจ" },
-    "ENFJ": { "compatibility": "48%", "description": "ISTP และ ENFJ มักมีความยากลำบากในการสื่อสาร ENFJ อาจพยายามเข้าใกล้และควบคุมมากเกินไปสำหรับ ISTP"
+    "ISTP": { "compatibility": "75%", "description": "两个ISTP通常理解彼此对独立的需求，双方喜欢一起参与有挑战性的活动，但可能在表达感受和情感沟通方面遇到困难。" },
+    "ESTP": { "compatibility": "85%", "description": "ISTP与ESTP通常相处融洽，因为双方都喜欢冒险与挑战。ESTP帮助ISTP在社交方面更加开放，而ISTP帮助ESTP更加谨慎。" },
+    "ISTJ": { "compatibility": "70%", "description": "ISTP与ISTJ通常理解彼此对私人空间的需求，但可能在遵守规则方面存在冲突。ISTJ可能觉得ISTP不够有条理。" },
+    "ESTJ": { "compatibility": "65%", "description": "ISTP与ESTJ在控制方面通常存在冲突。ESTJ可能对ISTP管束过多，让ISTP感到不舒服。" },
+    "INTP": { "compatibility": "78%", "description": "ISTP与INTP通常理解彼此对思维自由的需求，双方都喜欢解决问题，尽管INTP比喜欢实践的ISTP更偏向理论。" },
+    "ENTP": { "compatibility": "72%", "description": "ISTP与ENTP通常共享对解决问题和灵活性的兴趣，但ENTP对ISTP来说可能话太多。" },
+    "INTJ": { "compatibility": "68%", "description": "ISTP与INTJ通常理解彼此对私人空间的需求，但工作方式不同。INTJ对ISTP来说可能计划过多。" },
+    "ENTJ": { "compatibility": "62%", "description": "ISTP与ENTJ在控制方面可能存在冲突。ENTJ对喜欢自由的ISTP来说可能领导欲过强。" },
+    "ISFP": { "compatibility": "75%", "description": "ISTP与ISFP通常理解彼此对自由和表达的需求，尽管ISFP比ISTP更敏感。" },
+    "ESFP": { "compatibility": "72%", "description": "ISTP与ESFP通常喜欢一起参与有挑战性的活动，但ESFP可能需要比ISTP所能给予的更多情感亲密。" },
+    "ISFJ": { "compatibility": "55%", "description": "ISTP与ISFJ在相互理解方面通常存在困难。ISFJ可能需要比ISTP能给予的更多稳定性与情感表达。" },
+    "ESFJ": { "compatibility": "45%", "description": "ISTP与ESFJ在沟通上通常存在困难。ESFJ可能觉得ISTP冷漠且不关心感受。" },
+    "INFP": { "compatibility": "58%", "description": "ISTP与INFP在看世界方面通常存在差异。INFP可能需要比ISTP擅长的更多情感支持。" },
+    "ENFP": { "compatibility": "55%", "description": "ISTP与ENFP在沟通上通常存在差异。ENFP对ISTP来说可能话太多且表达过于丰富。" },
+    "INFJ": { "compatibility": "52%", "description": "ISTP与INFJ在相互理解方面通常存在困难。INFJ可能需要比ISTP所能给予的更深层的情感联系。" },
+    "ENFJ": { "compatibility": "48%", "description": "ISTP与ENFJ在沟通上通常存在困难。ENFJ对ISTP来说可能过于亲近且控制欲过强。"
     }
   },
   "ISFP": {
-    "ISFP": { "compatibility": "85%", "description": "ISFP สองคนมักเข้าใจกันเป็นอย่างดีเพราะมีค่านิยมและความคิดคล้ายกัน ทั้งคู่ชอบความอิสระและความสร้างสรรค์ แต่ปัญหาอาจเกิดขึ้นเมื่อทั้งคู่ชอบหลีกเลี่ยงความขัดแย้งและไม่กล้าแสดงความต้องการของตัวเอง" },
-    "ESFP": { "compatibility": "90%", "description": "ISFP และ ESFP มักเข้ากันได้ดีเพราะทั้งคู่ชอบความสนุกสนานและความเป็นอิสระ ESFP ช่วยให้ ISFP รู้สึกมีชีวิตชีวา ในขณะที่ ISFP ให้ความเข้าใจและความมั่นคงทางอารมณ์แก่ ESFP" },
-    "ISFJ": { "compatibility": "88%", "description": "ISFP และ ISFJ มักถูกดึงดูดกันเพราะทั้งคู่ชอบความอบอุ่นและใส่ใจคนอื่น ISFJ ช่วยให้ ISFP รู้สึกมั่นคง ในขณะที่ ISFP ให้ความสร้างสรรค์และความอิสระแก่ ISFJ" },
-    "ESFJ": { "compatibility": "85%", "description": "ISFP และ ESFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความอบอุ่นและใส่ใจคนอื่น แต่ ESFJ อาจดูชอบควบคุมเกินไปสำหรับ ISFP ที่ต้องการความอิสระ" },
-    "ISTP": { "compatibility": "92%", "description": "ISFP และ ISTP มักสนุกกับการแลกเปลี่ยนความคิดเห็นเพราะทั้งคู่ชอบความคิดสร้างสรรค์ อย่างไรก็ตาม ISTP อาจดูชอบควบคุมเกินไปสำหรับ ISFP ที่ชอบความเป็นผู้นำ" },
-    "ESTP": { "compatibility": "85%", "description": "ISFP และ ESTP มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดสร้างสรรค์และวิสัยทัศน์ แต่ ESTP อาจดูเย็นชาเกินไปสำหรับ ISFP ที่ต้องการความอบอุ่นทางอารมณ์" },
-    "INFP": { "compatibility": "80%", "description": "ISFP และ INFP มักดึงดูดกันเพราะทั้งคู่ชอบความคิดสร้างสรรค์ แต่ INFP อาจดูชอบโต้แย้งเกินไปสำหรับ ISFP ที่ต้องการความชัดเจน" },
-    "ENFP": { "compatibility": "75%", "description": "ISFP และ ENFP อาจเข้ากันได้ยากเพราะ ENFP ชอบความเป็นอิสระและการคิดเชิงทฤษฎี ในขณะที่ ISFP ชอบความเป็นระเบียบและการปฏิบัติ" },
-    "ISTJ": { "compatibility": "70%", "description": "ISFP และ ISTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบการกระทำและความตื่นเต้น แต่ ISTJ อาจดูไม่ชอบวางแผนสำหรับ ISFP ที่ชอบการเตรียมการล่วงหน้า" },
-    "ESTJ": { "compatibility": "65%", "description": "ISFP และ ESTJ มักเข้าใจกันดีเพราะทั้งคู่ชอบการกระทำและความเป็นอิสระ แต่ ESTJ อาจดูไม่ชอบวางแผนสำหรับ ISFP ที่ชอบการเตรียมการล่วงหน้า" },
-    "INFJ": { "compatibility": "75%", "description": "ISFP และ INFJ อาจมีปัญหาการสื่อสารเพราะ INFJ ชอบความสนุกสนานและสังคม ในขณะที่ ISFP ชอบความเป็นระเบียบและโครงสร้าง แต่ INFJ สามารถช่วยให้ ISFP ผ่อนคลายได้" },
-    "ENFJ": { "compatibility": "70%", "description": "ISFP และ ENFJ อาจเข้ากันได้ยากเพราะ ENFJ ชอบความเป็นอิสระและความยืดหยุ่น ในขณะที่ ISFP ชอบความเป็นระเบียบและโครงสร้าง" },
-    "INTJ": { "compatibility": "60%", "description": "ISFP และ INTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นผู้นำและใส่ใจคนอื่น แต่ INTJ อาจดูอ่อนไหวเกินไปสำหรับ ISFP ที่ชอบความชัดเจน" },
-    "ENTJ": { "compatibility": "55%", "description": "ISFP และ ENTJ อาจเข้ากันได้ยากเพราะ ENTJ ชอบความลึกซึ้งและความหมาย ในขณะที่ ISFP ชอบความเป็นระเบียบและโครงสร้าง" },
-    "INTP": { "compatibility": "50%", "description": "ISFP และ INTP อาจขัดแย้งกันเพราะ INTP ชอบความยืดหยุ่นและความคิดสร้างสรรค์ ในขณะที่ ISFP ชอบความเป็นระเบียบและโครงสร้าง" },
-    "ENTP": { "compatibility": "45%", "description": "ISFP และ ENTP อาจเข้ากันได้ยากเพราะ ENTP ชอบความลึกซึ้งและความหมาย ในขณะที่ ISFP ชอบความเป็นระเบียบและโครงสร้าง"
+    "ISFP": { "compatibility": "85%", "description": "两个ISFP通常彼此理解，因为他们有相似的价值观和思维方式。双方都喜欢自由与创造性，但当两人都回避冲突、不敢表达自身需求时，问题便可能出现。" },
+    "ESFP": { "compatibility": "90%", "description": "ISFP与ESFP通常相处融洽，因为双方都喜欢欢乐与自由。ESFP让ISFP感到充满活力，而ISFP则为ESFP提供情感上的理解与稳定。" },
+    "ISFJ": { "compatibility": "88%", "description": "ISFP与ISFJ往往相互吸引，因为双方都喜欢温暖且关心他人。ISFJ让ISFP感到稳定，而ISFP则为ISFJ带来创造性与自由。" },
+    "ESFJ": { "compatibility": "85%", "description": "ISFP与ESFJ通常相处融洽，因为双方都喜欢温暖且关心他人。但ESFJ有时显得过于控制，而ISFP需要自由。" },
+    "ISTP": { "compatibility": "92%", "description": "ISFP与ISTP通常享受思想交流，因为双方都喜欢创造性。然而，ISTP有时显得过于控制，而ISFP喜欢主导。" },
+    "ESTP": { "compatibility": "85%", "description": "ISFP与ESTP通常相处融洽，因为双方都喜欢创造性与远见。但ESTP有时显得过于冷淡，而ISFP需要情感上的温暖。" },
+    "INFP": { "compatibility": "80%", "description": "ISFP与INFP往往相互吸引，因为双方都喜欢创造性。但INFP有时显得过于喜欢争论，而ISFP需要清晰直接。" },
+    "ENFP": { "compatibility": "75%", "description": "ISFP与ENFP可能较难相处，因为ENFP喜欢独立与理论思考，而ISFP喜欢秩序与实践。" },
+    "ISTJ": { "compatibility": "70%", "description": "ISFP与ISTJ通常相处融洽，因为双方都喜欢行动与刺激。但ISTJ有时显得不喜欢计划，而ISFP喜欢提前准备。" },
+    "ESTJ": { "compatibility": "65%", "description": "ISFP与ESTJ通常彼此理解，因为双方都喜欢行动与独立。但ESTJ有时显得不喜欢计划，而ISFP喜欢提前准备。" },
+    "INFJ": { "compatibility": "75%", "description": "ISFP与INFJ可能存在沟通问题，因为INFJ喜欢欢乐与社交，而ISFP喜欢秩序与结构。但INFJ能帮助ISFP放松。" },
+    "ENFJ": { "compatibility": "70%", "description": "ISFP与ENFJ可能较难相处，因为ENFJ喜欢独立与灵活，而ISFP喜欢秩序与结构。" },
+    "INTJ": { "compatibility": "60%", "description": "ISFP与INTJ通常相处融洽，因为双方都喜欢领导且关心他人。但INTJ有时显得过于敏感，而ISFP喜欢清晰直接。" },
+    "ENTJ": { "compatibility": "55%", "description": "ISFP与ENTJ可能较难相处，因为ENTJ喜欢深度与意义，而ISFP喜欢秩序与结构。" },
+    "INTP": { "compatibility": "50%", "description": "ISFP与INTP可能产生冲突，因为INTP喜欢灵活与创造性，而ISFP喜欢秩序与结构。" },
+    "ENTP": { "compatibility": "45%", "description": "ISFP与ENTP可能较难相处，因为ENTP喜欢深度与意义，而ISFP喜欢秩序与结构。"
     }
   },
   "ESTP": {
-    "ESTP": { "compatibility": "85%", "description": "ESTP สองคนมักเข้าใจกันเป็นอย่างดีเพราะมีค่านิยมและความคิดคล้ายกัน ทั้งคู่ชอบความตื่นเต้นและการกระทำ แต่ปัญหาอาจเกิดขึ้นเมื่อทั้งคู่ชอบแข่งขันและไม่ยืดหยุ่น" },
-    "ISTP": { "compatibility": "90%", "description": "ESTP และ ISTP มักเข้ากันได้ดีเพราะทั้งคู่ชอบความตื่นเต้นและการกระทำ ISTP ช่วยให้ ESTP รู้สึกมั่นคง ในขณะที่ ESTP ให้ความกระตือรือร้นและความเป็นผู้นำแก่ ISTP" },
-    "ESFP": { "compatibility": "92%", "description": "ESTP และ ESFP มักถูกดึงดูดกันเพราะทั้งคู่ชอบความสนุกสนานและการกระทำ ESFP ช่วยให้ ESTP รู้สึกมีชีวิตชีวา ในขณะที่ ESTP ให้ความมั่นคงและความเป็นผู้นำแก่ ESFP" },
-    "ISFP": { "compatibility": "88%", "description": "ESTP และ ISFP มักเข้ากันได้ดีเพราะทั้งคู่ชอบความตื่นเต้นและการกระทำ แต่ ISFP อาจดูอ่อนไหวเกินไปสำหรับ ESTP ที่ชอบความชัดเจน" },
-    "ENTJ": { "compatibility": "85%", "description": "ESTP และ ENTJ มักสนุกกับการแลกเปลี่ยนความคิดเห็นเพราะทั้งคู่ชอบความคิดเชิงกลยุทธ์ อย่างไรก็ตาม ENTJ อาจดูชอบควบคุมเกินไปสำหรับ ESTP ที่ชอบความเป็นผู้นำ" },
-    "INTJ": { "compatibility": "75%", "description": "ESTP และ INTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความคิดเชิงกลยุทธ์และวิสัยทัศน์ แต่ INTJ อาจดูเย็นชาเกินไปสำหรับ ESTP ที่ต้องการความอบอุ่นทางอารมณ์" },
-    "ENTP": { "compatibility": "80%", "description": "ESTP และ ENTP มักดึงดูดกันเพราะทั้งคู่ชอบความคิดสร้างสรรค์ แต่ ENTP อาจดูชอบโต้แย้งเกินไปสำหรับ ESTP ที่ต้องการความชัดเจน" },
-    "INTP": { "compatibility": "70%", "description": "ESTP และ INTP อาจเข้ากันได้ยากเพราะ INTP ชอบความเป็นอิสระและการคิดเชิงทฤษฎี ในขณะที่ ESTP ชอบความเป็นระเบียบและการปฏิบัติ" },
-    "ESTJ": { "compatibility": "85%", "description": "ESTP และ ESTJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบการกระทำและความตื่นเต้น แต่ ESTJ อาจดูไม่ชอบวางแผนสำหรับ ESTP ที่ชอบการเตรียมการล่วงหน้า" },
-    "ISTJ": { "compatibility": "75%", "description": "ESTP และ ISTJ มักเข้าใจกันดีเพราะทั้งคู่ชอบการกระทำและความเป็นอิสระ แต่ ISTJ อาจดูไม่ชอบวางแผนสำหรับ ESTP ที่ชอบการเตรียมการล่วงหน้า" },
-    "ESFJ": { "compatibility": "70%", "description": "ESTP และ ESFJ อาจมีปัญหาการสื่อสารเพราะ ESFJ ชอบความสนุกสนานและสังคม ในขณะที่ ESTP ชอบความเป็นระเบียบและโครงสร้าง แต่ ESFJ สามารถช่วยให้ ESTP ผ่อนคลายได้" },
-    "ISFJ": { "compatibility": "65%", "description": "ESTP และ ISFJ อาจเข้ากันได้ยากเพราะ ISFJ ชอบความเป็นอิสระและความยืดหยุ่น ในขณะที่ ESTP ชอบความเป็นระเบียบและโครงสร้าง" },
-    "ENFJ": { "compatibility": "75%", "description": "ESTP และ ENFJ มักเข้ากันได้ดีเพราะทั้งคู่ชอบความเป็นผู้นำและใส่ใจคนอื่น แต่ ENFJ อาจดูอ่อนไหวเกินไปสำหรับ ESTP ที่ชอบความชัดเจน" },
-    "INFJ": { "compatibility": "60%", "description": "ESTP และ INFJ อาจเข้ากันได้ยากเพราะ INFJ ชอบความลึกซึ้งและความหมาย ในขณะที่ ESTP ชอบความเป็นระเบียบและโครงสร้าง" },
-    "ENFP": { "compatibility": "55%", "description": "ESTP และ ENFP อาจขัดแย้งกันเพราะ ENFP ชอบความยืดหยุ่นและความคิดสร้างสรรค์ ในขณะที่ ESTP ชอบความเป็นระเบียบและโครงสร้าง" },
-    "INFP": { "compatibility": "50%", "description": "ESTP และ INFP อาจเข้ากันได้ยากเพราะ INFP ชอบความลึกซึ้งและความหมาย ในขณะที่ ESTP ชอบความเป็นระเบียบและโครงสร้าง"
+    "ESTP": { "compatibility": "85%", "description": "两个ESTP通常彼此理解，因为他们有相似的价值观和思维方式。双方都喜欢刺激与行动，但当两人都喜欢竞争且不够灵活时，问题便可能出现。" },
+    "ISTP": { "compatibility": "90%", "description": "ESTP与ISTP通常相处融洽，因为双方都喜欢刺激与行动。ISTP帮助ESTP感到稳定，而ESTP则为ISTP带来热情与领导力。" },
+    "ESFP": { "compatibility": "92%", "description": "ESTP与ESFP往往相互吸引，因为双方都喜欢欢乐与行动。ESFP让ESTP感到充满活力，而ESTP则为ESFP提供稳定与领导力。" },
+    "ISFP": { "compatibility": "88%", "description": "ESTP与ISFP通常相处融洽，因为双方都喜欢刺激与行动。但ISFP有时显得过于敏感，而ESTP喜欢清晰直接。" },
+    "ENTJ": { "compatibility": "85%", "description": "ESTP与ENTJ通常享受思想交流，因为双方都喜欢战略思维。然而，ENTJ有时显得过于控制，而ESTP喜欢担任领导者。" },
+    "INTJ": { "compatibility": "75%", "description": "ESTP与INTJ通常相处融洽，因为双方都喜欢战略思维与远见。但INTJ有时显得过于冷淡，而ESTP需要情感上的温暖。" },
+    "ENTP": { "compatibility": "80%", "description": "ESTP与ENTP往往相互吸引，因为双方都喜欢创造性。但ENTP有时显得过于喜欢争论，而ESTP需要清晰直接。" },
+    "INTP": { "compatibility": "70%", "description": "ESTP与INTP可能较难相处，因为INTP喜欢独立与理论思考，而ESTP喜欢秩序与实践。" },
+    "ESTJ": { "compatibility": "85%", "description": "ESTP与ESTJ通常相处融洽，因为双方都喜欢行动与刺激。但ESTJ有时显得不喜欢计划，而ESTP喜欢提前准备。" },
+    "ISTJ": { "compatibility": "75%", "description": "ESTP与ISTJ通常彼此理解，因为双方都喜欢行动与独立。但ISTJ有时显得不喜欢计划，而ESTP喜欢提前准备。" },
+    "ESFJ": { "compatibility": "70%", "description": "ESTP与ESFJ可能存在沟通问题，因为ESFJ喜欢欢乐与社交，而ESTP喜欢秩序与结构。但ESFJ能帮助ESTP放松。" },
+    "ISFJ": { "compatibility": "65%", "description": "ESTP与ISFJ可能较难相处，因为ISFJ喜欢独立与灵活，而ESTP喜欢秩序与结构。" },
+    "ENFJ": { "compatibility": "75%", "description": "ESTP与ENFJ通常相处融洽，因为双方都喜欢领导且关心他人。但ENFJ有时显得过于敏感，而ESTP喜欢清晰直接。" },
+    "INFJ": { "compatibility": "60%", "description": "ESTP与INFJ可能较难相处，因为INFJ喜欢深度与意义，而ESTP喜欢秩序与结构。" },
+    "ENFP": { "compatibility": "55%", "description": "ESTP与ENFP可能产生冲突，因为ENFP喜欢灵活与创造性，而ESTP喜欢秩序与结构。" },
+    "INFP": { "compatibility": "50%", "description": "ESTP与INFP可能较难相处，因为INFP喜欢深度与意义，而ESTP喜欢秩序与结构。"
     }
   },
   "ESFP": {
-    "ESFP": { "compatibility": "90%", "description": "เมื่อ ESFP อยู่ด้วยกัน พวกเขาจะเต็มไปด้วยพลังงานและความสนุกสนาน ทั้งคู่เข้าใจถึงความต้องการอิสระและการใช้ชีวิตในปัจจุบัน แต่ความสัมพันธ์อาจมีปัญหาได้ถ้าทั้งคู่ไม่สามารถจัดการกับความรับผิดชอบได้ดีพอ" },
-    "ESTP": { "compatibility": "92%", "description": "ESTP และ ESFP มีพลังงานใกล้เคียงกัน ทั้งคู่รักการผจญภัยและมีแนวโน้มที่จะกระตุ้นกันให้กล้าทำสิ่งใหม่ๆ ความสัมพันธ์นี้สนุกสนานและเต็มไปด้วยกิจกรรม แต่ ESTP อาจตรงไปตรงมาเกินไปสำหรับ ESFP ที่อ่อนไหวกว่าบ้าง" },
-    "ISFP": { "compatibility": "85%", "description": "ทั้งคู่เป็นนักสำรวจและรักศิลปะ ESFP ช่วยให้ ISFP กล้าออกจากคอมฟอร์ตโซน ในขณะที่ ISFP ช่วยให้ ESFP ได้สัมผัสกับอารมณ์ที่ลึกซึ้งขึ้น แต่ปัญหาอาจเกิดขึ้นเมื่อ ISFP ต้องการเวลาส่วนตัวมากกว่า ESFP" },
-    "ISTP": { "compatibility": "88%", "description": "ISTP มีความเป็นตัวของตัวเองและสงบ ในขณะที่ ESFP มีพลังงานและชอบเข้าสังคม ทั้งคู่สามารถเติมเต็มกันได้ดี ESFP สามารถกระตุ้นให้ ISTP สนุกกับชีวิตมากขึ้น ในขณะที่ ISTP สามารถสอน ESFP ให้คิดรอบคอบมากขึ้น" },
-    "ENTJ": { "compatibility": "75%", "description": "ESFP และ ENTJ ต่างกันอย่างมาก ESFP ชอบความสนุกสนานและการใช้ชีวิตในปัจจุบัน ในขณะที่ ENTJ มุ่งมั่นกับเป้าหมายระยะยาว อย่างไรก็ตาม ENTJ สามารถช่วยให้ ESFP มีวินัยมากขึ้น ในขณะที่ ESFP สามารถช่วยให้ ENTJ ผ่อนคลายและสนุกกับชีวิต" },
-    "INTJ": { "compatibility": "65%", "description": "INTJ ชอบวางแผนและใช้ตรรกะ ส่วน ESFP ชอบความสนุกและการเข้าสังคม ความสัมพันธ์นี้อาจท้าทายเพราะ INTJ อาจมองว่า ESFP ผิวเผิน ขณะที่ ESFP อาจมองว่า INTJ จริงจังเกินไป" },
-    "ENTP": { "compatibility": "85%", "description": "ENTP และ ESFP ต่างมีพลังงานสูงและรักการผจญภัย ความสัมพันธ์นี้เต็มไปด้วยการพูดคุยที่กระตุ้นความคิดและการผจญภัยที่ไม่รู้จบ อย่างไรก็ตาม ENTP อาจใช้เหตุผลมากเกินไป ในขณะที่ ESFP ใช้อารมณ์มากกว่า" },
-    "INTP": { "compatibility": "70%", "description": "ESFP และ INTP มีแนวทางชีวิตที่ต่างกันมาก INTP ชอบใช้เวลากับความคิด ส่วน ESFP ชอบออกไปข้างนอกและสนุกสนาน อย่างไรก็ตาม หากทั้งคู่เปิดใจเรียนรู้จากกัน พวกเขาจะสามารถช่วยพัฒนากันได้" },
-    "ESTJ": { "compatibility": "80%", "description": "ESTJ เป็นคนจริงจังและมุ่งมั่น ขณะที่ ESFP เป็นคนชิลๆ และรักสนุก ความสัมพันธ์นี้อาจประสบความสำเร็จได้ถ้า ESTJ สามารถยอมรับความเป็นอิสระของ ESFP และ ESFP สามารถรับมือกับธรรมชาติที่เป็นผู้นำของ ESTJ" },
-    "ISTJ": { "compatibility": "70%", "description": "ISTJ ชอบความมีระเบียบแบบแผน ขณะที่ ESFP เป็นคนรักอิสระและชอบความสนุกสนาน อาจมีความขัดแย้งเกิดขึ้นได้ แต่ถ้าต่างฝ่ายเคารพในสไตล์ของกันและกัน ความสัมพันธ์นี้สามารถทำให้ทั้งคู่เติบโตได้" },
-    "ESFJ": { "compatibility": "90%", "description": "ทั้งสองเป็นคนชอบเข้าสังคมและให้ความสำคัญกับคนรอบข้าง ความสัมพันธ์นี้เต็มไปด้วยความอบอุ่นและความเข้าใจซึ่งกันและกัน อย่างไรก็ตาม ESFJ อาจต้องการโครงสร้างมากกว่า ESFP ที่ชอบความอิสระ" },
-    "ISFJ": { "compatibility": "75%", "description": "ESFP และ ISFJ ต่างกันในด้านพลังงานและสไตล์การใช้ชีวิต ISFJ ชอบความมั่นคง ขณะที่ ESFP ชอบความตื่นเต้น หากทั้งคู่สามารถหาจุดกึ่งกลางได้ พวกเขาสามารถสร้างความสัมพันธ์ที่สมดุลกันได้" },
-    "ENFJ": { "compatibility": "85%", "description": "ESFP และ ENFJ ต่างเป็นคนชอบเข้าสังคมและใส่ใจคนอื่น ENFJ สามารถช่วยให้ ESFP มีเป้าหมายมากขึ้น ขณะที่ ESFP สามารถช่วยให้ ENFJ ผ่อนคลายและสนุกกับชีวิตมากขึ้น" },
-    "INFJ": { "compatibility": "65%", "description": "INFJ เป็นคนชอบคิดลึกซึ้งและมองหาเป้าหมายในชีวิต ขณะที่ ESFP ชอบอยู่กับปัจจุบัน ความสัมพันธ์นี้อาจเป็นเรื่องยาก แต่ถ้าทั้งคู่เปิดใจ พวกเขาสามารถเรียนรู้จากกันและกันได้" },
-    "ENFP": { "compatibility": "95%", "description": "ENFP และ ESFP เป็นคู่ที่มีพลังงานสูงและรักการผจญภัย พวกเขาจะเข้าใจกันได้อย่างลึกซึ้งและกระตุ้นให้กันและกันสนุกกับชีวิต ความสัมพันธ์นี้เต็มไปด้วยความตื่นเต้นและการสำรวจสิ่งใหม่ๆ" },
-    "INFP": { "compatibility": "75%", "description": "INFP เป็นคนชอบความสงบและลึกซึ้ง ในขณะที่ ESFP เป็นคนรักสนุกและใช้ชีวิตอย่างเต็มที่ ความสัมพันธ์นี้อาจต้องการการปรับตัว แต่ก็สามารถทำให้กันและกันเติบโตได้"
+    "ESFP": { "compatibility": "90%", "description": "两个ESFP在一起时充满活力与欢乐，双方都理解对自由和活在当下的需求，但如果双方都无法很好地承担责任，关系可能会出现问题。" },
+    "ESTP": { "compatibility": "92%", "description": "ESTP与ESFP有着相近的能量，双方都热爱冒险，倾向于相互激励去尝试新事物。这段关系充满乐趣和活动，但ESTP有时可能对更敏感的ESFP过于直接。" },
+    "ISFP": { "compatibility": "85%", "description": "双方都是探索者，热爱艺术。ESFP帮助ISFP勇于走出舒适区，而ISFP则帮助ESFP体验更深层的情感，但当ISFP需要比ESFP更多独处时间时，问题可能出现。" },
+    "ISTP": { "compatibility": "88%", "description": "ISTP独立而平静，而ESFP充满活力且喜欢社交。双方可以很好地互补。ESFP能激励ISTP更加享受生活，而ISTP则能教导ESFP更加深思熟虑。" },
+    "ENTJ": { "compatibility": "75%", "description": "ESFP与ENTJ差异很大。ESFP喜欢乐趣与活在当下，而ENTJ专注于长期目标。然而，ENTJ可以帮助ESFP更有纪律，而ESFP则可以帮助ENTJ放松，享受生活。" },
+    "INTJ": { "compatibility": "65%", "description": "INTJ喜欢计划和使用逻辑，而ESFP喜欢欢乐和社交。这段关系可能充满挑战，因为INTJ可能认为ESFP肤浅，而ESFP可能认为INTJ过于严肃。" },
+    "ENTP": { "compatibility": "85%", "description": "ENTP与ESFP都有高度的活力且热爱冒险。这段关系充满激动人心的对话和无尽的冒险。然而，ENTP可能过于依赖理性，而ESFP更多地依靠情感。" },
+    "INTP": { "compatibility": "70%", "description": "ESFP与INTP的生活方式差异很大。INTP喜欢沉浸于思考，而ESFP喜欢外出享乐。然而，如果双方能开放地互相学习，他们可以互相促进发展。" },
+    "ESTJ": { "compatibility": "80%", "description": "ESTJ严肃认真，ESFP则轻松爱玩。如果ESTJ能接受ESFP的自由个性，而ESFP能应对ESTJ的领导特质，这段关系就能取得成功。" },
+    "ISTJ": { "compatibility": "70%", "description": "ISTJ喜欢秩序井然，而ESFP热爱自由与欢乐。可能会出现冲突，但若双方尊重彼此的风格，这段关系能让双方共同成长。" },
+    "ESFJ": { "compatibility": "90%", "description": "两者都喜欢社交，重视身边的人。这段关系充满温暖与相互理解。然而，ESFJ可能比喜欢自由的ESFP更需要结构。" },
+    "ISFJ": { "compatibility": "75%", "description": "ESFP与ISFJ在能量和生活方式上有所不同。ISFJ喜欢稳定，而ESFP喜欢刺激。如果双方能找到折中点，他们可以建立平衡的关系。" },
+    "ENFJ": { "compatibility": "85%", "description": "ESFP与ENFJ同样喜欢社交且关心他人。ENFJ可以帮助ESFP更有目标，而ESFP则可以帮助ENFJ放松，更加享受生活。" },
+    "INFJ": { "compatibility": "65%", "description": "INFJ喜欢深度思考，寻求生命的意义，而ESFP更注重当下。这段关系可能较为困难，但若双方敞开心扉，他们可以互相学习。" },
+    "ENFP": { "compatibility": "95%", "description": "ENFP与ESFP是一对充满活力、热爱冒险的组合。他们能深刻地相互理解，激励彼此享受生活。这段关系充满激情和探索新事物的热情。" },
+    "INFP": { "compatibility": "75%", "description": "INFP喜欢宁静与深度，而ESFP热爱欢乐，充分享受生活。这段关系可能需要磨合，但双方也能互相促进成长。"
     }
   }
 }

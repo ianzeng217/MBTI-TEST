@@ -695,7 +695,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Fetch MBTI data from GitHub
     async function fetchMbtiData() {
-        const url = 'https://raw.githubusercontent.com/chokunkie02/mbti_checker/refs/heads/main/app/templates/insights.json';
+        const url = '/api/insights';
         try {
             const response = await fetch(url);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -758,9 +758,9 @@ document.addEventListener('DOMContentLoaded', function() {
         contentSections.innerHTML = '';
         summarySection.innerHTML = '';
 
-        const topics = mbtiData.sections.filter(section => !section.title.toLowerCase().includes('สรุป'));
-        const summaryContent = mbtiData.sections.find(section => 
-            section.title.toLowerCase().includes('สรุป')
+        const topics = mbtiData.sections.filter(section => !section.title.includes('总结'));
+        const summaryContent = mbtiData.sections.find(section =>
+            section.title.includes('总结')
         );
 
         topics.forEach((topic, index) => {
@@ -770,9 +770,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // Remove number from title
             let title = topic.title;
             title = title.replace(/^\d+\.\s*/, '');
-            if (title.includes('ของ')) {
-                title = title.split('ของ')[0];
-            }
             topicElement.textContent = title.trim();
 
             topicElement.style.setProperty('--animation-order', index + 1);
