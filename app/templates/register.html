@@ -10,7 +10,7 @@
       --mbti-gradient: linear-gradient(135deg, var(--purple-color), var(--green-color), var(--blue-color), var(--yellow-color));
       --mbti-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
-    
+
     .auth-container {
       max-width: 500px;
       margin: 4rem auto;
@@ -22,7 +22,7 @@
       overflow: hidden;
       animation: containerGlow 3s infinite;
     }
-    
+
     @keyframes containerGlow {
       0% {
         box-shadow: 0 4px 15px rgba(142, 68, 173, 0.2);
@@ -40,7 +40,7 @@
         box-shadow: 0 4px 15px rgba(142, 68, 173, 0.2);
       }
     }
-    
+
     .auth-container::before {
       content: '';
       position: absolute;
@@ -48,7 +48,7 @@
       background: repeating-conic-gradient(from 0deg, rgba(142, 68, 173, 0.03) 0deg 90deg, rgba(39, 174, 96, 0.03) 90deg 180deg, rgba(41, 128, 185, 0.03) 180deg 270deg, rgba(241, 196, 15, 0.03) 270deg 360deg);
       animation: rotate 20s linear infinite;
     }
-    
+
     @keyframes rotate {
       from {
         transform: rotate(0deg);
@@ -57,7 +57,7 @@
         transform: rotate(360deg);
       }
     }
-    
+
     .auth-container h2 {
       text-align: center;
       font-size: 2.5rem;
@@ -67,7 +67,7 @@
       -webkit-text-fill-color: transparent;
       animation: titleFloat 3s infinite ease-in-out;
     }
-    
+
     @keyframes titleFloat {
       0% {
         transform: translateY(0);
@@ -79,14 +79,14 @@
         transform: translateY(0);
       }
     }
-    
+
     .form-group {
       margin-bottom: 1.5rem;
       position: relative;
       animation: fadeInUp 0.5s ease-out forwards;
       animation-delay: calc(var(--i, 0) * 0.1s);
     }
-    
+
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -97,7 +97,7 @@
         transform: translateY(0);
       }
     }
-    
+
     .form-control {
       width: 100%;
       padding: 0.75rem 1rem;
@@ -107,7 +107,7 @@
       background: rgba(255, 255, 255, 0.9);
       animation: borderFlow 3s infinite;
     }
-    
+
     @keyframes borderFlow {
       0% {
         border-color: rgba(142, 68, 173, 0.3);
@@ -125,12 +125,12 @@
         border-color: rgba(142, 68, 173, 0.3);
       }
     }
-    
+
     .form-control:focus {
       box-shadow: 0 0 0 3px rgba(var(--focus-color, 142, 68, 173), 0.1);
       border-image: var(--mbti-gradient) 1;
     }
-    
+
     .btn-submit {
       width: 100%;
       padding: 0.75rem;
@@ -144,7 +144,7 @@
       transition: all 0.3s ease;
       animation: gradientShift 3s infinite linear;
     }
-    
+
     @keyframes gradientShift {
       0% {
         background-position: 0% 50%;
@@ -156,18 +156,18 @@
         background-position: 0% 50%;
       }
     }
-    
+
     .btn-submit:hover {
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
-    
+
     .auth-links {
       text-align: center;
       margin-top: 2rem;
       animation: fadeIn 1s ease-out;
     }
-    
+
     .auth-links a {
       background: var(--mbti-gradient);
       -webkit-background-clip: text;
@@ -176,7 +176,7 @@
       position: relative;
       transition: all 0.3s ease;
     }
-    
+
     .auth-links a::after {
       content: '';
       position: absolute;
@@ -188,18 +188,18 @@
       transform: scaleX(0);
       transition: transform 0.3s ease;
     }
-    
+
     .auth-links a:hover::after {
       transform: scaleX(1);
     }
-    
+
     .error {
       color: #e74c3c;
       font-size: 0.875rem;
       margin-top: 0.25rem;
       animation: errorPop 0.5s ease-out;
     }
-    
+
     @keyframes errorPop {
       0% {
         transform: scale(0);
@@ -216,7 +216,7 @@
 
 {% block content %}
   <div class="auth-container">
-    <h2>ลงทะเบียน</h2>
+    <h2>注册</h2>
     <form method="POST" action="{{ url_for('main.register') }}">
       {{ form.hidden_tag() }}
       <div class="form-group" style="--i: 1">
@@ -251,7 +251,7 @@
     </form>
     <div class="auth-links">
       <p>
-        มีบัญชีแล้ว? <a href="{{ url_for('main.login') }}" class="login-link">เข้าสู่ระบบที่นี่</a>
+        已有账号？ <a href="{{ url_for('main.login') }}" class="login-link">在此登录</a>
       </p>
     </div>
   </div>

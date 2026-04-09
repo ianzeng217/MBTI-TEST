@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -470,16 +470,16 @@
       {% if current_user.is_authenticated %}
         <a href="{{ url_for('main.logout') }}">
           <span class="icon"><i class="fas fa-sign-out-alt"></i></span>
-          <span>ออกจากระบบ</span>
+          <span>退出登录</span>
         </a>
       {% else %}
         <a href="{{ url_for('main.login') }}">
           <span class="icon"><i class="fas fa-sign-in-alt"></i></span>
-          <span>เข้าสู่ระบบ</span>
+          <span>登录</span>
         </a>
         <a href="{{ url_for('main.register') }}">
           <span class="icon"><i class="fas fa-user-plus"></i></span>
-          <span>ลงทะเบียน</span>
+          <span>注册</span>
         </a>
       {% endif %}
     </div>
@@ -504,7 +504,7 @@
               {% if current_user.is_authenticated and current_user.mbti_type %}
                 {{ current_user.mbti_type }}
               {% else %}
-                Guest
+                访客
               {% endif %}
             </div>
           </div>
@@ -516,49 +516,49 @@
           <li>
             <a href="{{ url_for('main.home') }}">
               <span class="icon"><i class="fas fa-home"></i></span>
-              <span class="link-text">หน้าแรก</span>
+              <span class="link-text">首页</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.quiz') }}">
               <span class="icon"><i class="fas fa-tasks"></i></span>
-              <span class="link-text">ทำแบบทดสอบ</span>
+              <span class="link-text">开始测试</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.result') }}">
               <span class="icon"><i class="fas fa-chart-pie"></i></span>
-              <span class="link-text">ผลลัพธ์</span>
+              <span class="link-text">测试结果</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.characters') }}">
               <span class="icon"><i class="fas fa-user-friends"></i></span>
-              <span class="link-text">ตัวละคร</span>
+              <span class="link-text">动漫角色</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.relationships') }}">
               <span class="icon"><i class="fas fa-heart"></i></span>
-              <span class="link-text">ความสัมพันธ์</span>
+              <span class="link-text">性格相容性</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.animals') }}">
               <span class="icon"><i class="fas fa-paw"></i></span>
-              <span class="link-text">สัตว์ที่ตรงกับไทป์เรา</span>
+              <span class="link-text">属于你的动物</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.insights') }}">
               <span class="icon"><i class="fas fa-lightbulb"></i></span>
-              <span class="link-text">ข้อมูลเชิงลึก</span>
+              <span class="link-text">深度解析</span>
             </a>
           </li>
           <li>
             <a href="{{ url_for('main.about') }}">
               <span class="icon"><i class="fas fa-info-circle"></i></span>
-              <span class="link-text">เกี่ยวกับเรา</span>
+              <span class="link-text">关于我们</span>
             </a>
           </li>
         </ul>

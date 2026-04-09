@@ -1,7 +1,7 @@
 
 {% extends 'base.html' %}
 
-{% block title %}MBTI Compatibility Checker{% endblock %}
+{% block title %}MBTI 性格相容性测试{% endblock %}
 
 {% block extra_css %}
 <style>
@@ -346,10 +346,10 @@
 
 {% block content %}
 <div class="page-header">
-    <h1>MBTI Compatibility Checker</h1>
+    <h1>MBTI 性格相容性测试</h1>
     <div class="subtitle">
-        <p>เพื่อให้คุณได้รู้จักความเข้ากันได้กับคนรอบตัว เราขอแนะนำให้ทำแบบทดสอบ MBTI สั้นๆ ก่อนนะคะ</p>
-        <p>ใช้เวลาเพียง 5-10 นาทีในการค้นพบว่าคุณเข้ากันได้ดีกับใคร</p>
+        <p>为了让你了解与周围人的相处方式，建议先完成 MBTI 测试</p>
+        <p>只需 5-10 分钟，即可发现你与谁最为契合</p>
     </div>
 </div>
 
@@ -357,9 +357,9 @@
 
 <div class="comparison">
     <div class="type-box user-type-box">
-        <div class="type-label">MBTI Type ของคุณ</div>
+        <div class="type-label">你的MBTI类型</div>
         <div id="user-type-value" class="type-value"></div>
-        <button id="change-type-btn" class="change-type-btn">เปลี่ยน Type</button>
+        <button id="change-type-btn" class="change-type-btn">更换类型</button>
     </div>
 
     <div class="compatibility-box">
@@ -367,14 +367,14 @@
     </div>
 
     <div class="type-box selected-type-box">
-        <div class="type-label">MBTI Type ที่เลือก</div>
+        <div class="type-label">所选MBTI类型</div>
         <div id="selected-type-value" class="type-value"></div>
     </div>
 </div>
 
 <div class="overlay" id="overlay"></div>
 <div class="popup" id="popup">
-    <h2>เลือก MBTI Type ของคุณ</h2>
+    <h2>选择你的MBTI类型</h2>
     <div class="grid" id="popup-type-grid"></div>
 </div>
 {% endblock %}
@@ -501,8 +501,8 @@
         if (!userType) {
             // ถ้าไม่มี type ให้แสดงข้อความแนะนำให้ทำแบบทดสอบ
             popup.innerHTML = `
-                <h2>ยังไม่มี MBTI Type</h2>
-                <p style="text-align: center; margin: 20px 0;">กรุณาทำแบบทดสอบก่อนเพื่อดูความเข้ากันได้</p>
+                <h2>尚未设置MBTI类型</h2>
+                <p style="text-align: center; margin: 20px 0;">请先完成测试以查看相容性</p>
                 <button onclick="window.location.href='/quiz'" style="
                     background: var(--mbti-gradient);
                     color: white;
@@ -513,7 +513,7 @@
                     display: block;
                     margin: 0 auto;
                     font-weight: 500;
-                ">ทำแบบทดสอบ</button>
+                ">开始测试</button>
             `;
             return;
         }

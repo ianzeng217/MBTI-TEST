@@ -5,23 +5,23 @@ from app.models import User
 
 
 class RegistrationForm(FlaskForm):
-    display_name = StringField("Display Name", validators=[DataRequired()])
-    username = StringField("Username", validators=[DataRequired()])
-    password = PasswordField("Password", validators=[DataRequired()])
+    display_name = StringField("显示名称", validators=[DataRequired(message="此字段为必填项")])
+    username = StringField("用户名", validators=[DataRequired(message="此字段为必填项")])
+    password = PasswordField("密码", validators=[DataRequired(message="此字段为必填项")])
     password2 = PasswordField(
-        "Repeat Password", validators=[DataRequired(), EqualTo("password")]
+        "重复密码", validators=[DataRequired(message="此字段为必填项"), EqualTo("password", message="两次密码不一致")]
     )
-    submit = SubmitField("Register")
+    submit = SubmitField("注册")
 
     def validate_username(self, username):
         user = User.query.filter_by(username=username.data).first()
         if user:
             raise ValidationError(
-                "Username is already taken. Please choose a different one."
+                "该用户名已被使用，请选择其他用户名。"
             )
 
 
 class LoginForm(FlaskForm):
-    username = StringField("Username", validators=[DataRequired()])
-    password = PasswordField("Password", validators=[DataRequired()])
-    submit = SubmitField("Login")
+    username = StringField("用户名", validators=[DataRequired(message="此字段为必填项")])
+    password = PasswordField("密码", validators=[DataRequired(message="此字段为必填项")])
+    submit = SubmitField("登录")

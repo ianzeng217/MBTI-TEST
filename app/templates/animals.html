@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}MBTI Animals{% endblock %}
+{% block title %}MBTI 动物{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css" />
@@ -379,13 +379,13 @@
 
 {% block content %}
 <div class="page-header">
-    <h1>MBTI Animals</h1>
-    <p class="subtitle">ค้นพบสัตว์ที่เป็นตัวแทนบุคลิกภาพของคุณ</p>
+    <h1>MBTI 动物</h1>
+    <p class="subtitle">探索代表你性格的动物</p>
 </div>
 
 <div id="loading" class="loading">
     <div class="loading-spinner"></div>
-    <div>กำลังโหลดข้อมูล...</div>
+    <div>正在加载数据...</div>
 </div>
 
 <div id="error-container"></div>
@@ -395,7 +395,7 @@
 </div>
 
 <div class="carousel-section" id="carousel-section" style="display: none">
-    <h2 class="carousel-title">สัตว์ MBTI อื่นๆ</h2>
+    <h2 class="carousel-title">其他MBTI动物</h2>
     <div class="swiper">
         <div class="swiper-wrapper" id="swiper-wrapper"></div>
         <div class="swiper-pagination"></div>
@@ -407,14 +407,14 @@
 <div class="overlay" id="overlay"></div>
 <div class="popup" id="popup">
     <div class="popup-content">
-        <h2 class="popup-title">ค้นหาสัตว์ที่เหมาะกับคุณ</h2>
+        <h2 class="popup-title">寻找属于你的动物</h2>
         <p class="popup-text">
-            เพื่อให้คุณได้รู้จักสัตว์ที่มีบุคลิกภาพคล้ายคุณ เราขอแนะนำให้ทำแบบทดสอบ MBTI สั้นๆ ก่อนนะคะ
+            为了让你了解拥有相似性格的动物，建议先完成 MBTI 测试
         </p>
         <p class="popup-subtext">
-            ใช้เวลาเพียง 5-10 นาทีในการค้นพบตัวตนที่แท้จริงของคุณ
+            只需 5-10 分钟，即可发现真实的自己
         </p>
-        <a href="{{ url_for('main.quiz') }}" class="change-type-btn">เริ่มทำแบบทดสอบ</a>
+        <a href="{{ url_for('main.quiz') }}" class="change-type-btn">开始测试</a>
     </div>
 </div>
 
@@ -479,8 +479,8 @@
             console.error("Error fetching data:", error);
             document.getElementById('error-container').innerHTML = `
                 <div class="error-message">
-                    <strong>เกิดข้อผิดพลาด</strong>
-                    <p>ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง</p>
+                    <strong>发生错误</strong>
+                    <p>无法加载数据，请重试</p>
                 </div>
             `;
         } finally {
@@ -497,8 +497,8 @@
             console.error("No animal found for userType:", userType);
             document.getElementById('error-container').innerHTML = `
                 <div class="error-message">
-                    <strong>เกิดข้อผิดพลาด</strong>
-                    <p>ไม่พบข้อมูลสำหรับ MBTI Type นี้</p>
+                    <strong>发生错误</strong>
+                    <p>未找到此MBTI类型的数据</p>
                 </div>
             `;
         }

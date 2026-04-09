@@ -1,35 +1,35 @@
 {% extends 'base.html' %}
 
 {% block title %}
-  MBTI Checker | ค้นหาบุคลิกภาพของคุณ
+  MBTI Checker | 探索你的性格类型
 {% endblock %}
 
 {% block content %}
   <div class="content-wrapper">
     <h1 class="fade-in">MBTI Checker</h1>
 
-    <p class="intro-text slide-in">MBTI (Myers-Briggs Type Indicator) คือแบบทดสอบบุคลิกภาพที่ได้รับความนิยมอย่างมาก โดยแบ่งบุคลิกภาพออกเป็น 16 ประเภท ผ่านการวิเคราะห์ 4 มิติสำคัญ</p>
+    <p class="intro-text slide-in">MBTI（迈尔斯-布里格斯类型指标）是一种广受欢迎的性格测试，通过分析4个核心维度，将人的性格划分为16种类型。</p>
 
     <ul class="dimension-list">
       <li class="dimension-item slide-in">
-        <strong>ทิศทางพลังงาน:</strong> ชอบสังคมภายนอก (Extraversion) หรือใช้เวลาคนเดียว (Introversion)
+        <strong>能量方向：</strong>喜欢社交（外向 Extraversion）还是独处（内向 Introversion）
       </li>
       <li class="dimension-item slide-in">
-        <strong>การรับข้อมูล:</strong> ใช้ประสาทสัมผัส (Sensing) หรือใช้สัญชาตญาณ (Intuition)
+        <strong>信息获取：</strong>依赖感觉（实感 Sensing）还是直觉（直觉 Intuition）
       </li>
       <li class="dimension-item slide-in">
-        <strong>การตัดสินใจ:</strong> ใช้เหตุผล (Thinking) หรือใช้ความรู้สึก (Feeling)
+        <strong>决策方式：</strong>依靠理性（思维 Thinking）还是情感（情感 Feeling）
       </li>
       <li class="dimension-item slide-in">
-        <strong>การใช้ชีวิต:</strong> ชอบความเป็นระเบียบ (Judging) หรือยืดหยุ่น (Perceiving)
+        <strong>生活方式：</strong>喜欢有序（判断 Judging）还是灵活（感知 Perceiving）
       </li>
     </ul>
 
-    <p class="intro-text slide-in">การรู้จักบุคลิกภาพของตนเองผ่าน MBTI จะช่วยให้คุณเข้าใจตนเองมากขึ้น ทั้งในด้านการทำงาน การสื่อสาร และการใช้ชีวิตประจำวัน มาร่วมค้นหาประเภทบุคลิกภาพของคุณผ่านแบบทดสอบของเรา แล้วนำผลลัพธ์ไปปรับใช้ในการพัฒนาตนเองกันเถอะ!</p>
+    <p class="intro-text slide-in">了解自己的MBTI类型，有助于你更好地认识自我，无论在工作、沟通还是日常生活中都能受益。来参加我们的测试，发现你的性格类型，并将结果运用到自我提升中吧！</p>
 
-    <a href="{{ url_for('main.quiz') }}" class="start-button pulse">เริ่มทำแบบทดสอบ</a>
+    <a href="{{ url_for('main.quiz') }}" class="start-button pulse">开始测试</a>
 
-    <p class="footer-text fade-in">© 2025 MBTI Checker. สงวนลิขสิทธิ์</p>
+    <p class="footer-text fade-in">© 2025 MBTI Checker. 版权所有</p>
   </div>
 {% endblock %}
 
@@ -39,7 +39,7 @@
       --mbti-gradient: linear-gradient(135deg, #ba68c8, #81c784, #64b5f6, #ffeb3b);
       --mbti-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
-    
+
     .content-wrapper {
       position: relative;
       overflow: hidden;
@@ -49,7 +49,7 @@
       backdrop-filter: blur(10px);
       box-shadow: var(--mbti-shadow);
     }
-    
+
     .intro-text {
       font-size: 1.1rem;
       margin: 2rem 0;
@@ -60,7 +60,7 @@
       opacity: 0;
       transform: translateY(20px);
     }
-    
+
     .dimension-list {
       margin: 2.5rem 0;
       padding-left: 0;
@@ -68,7 +68,7 @@
       display: grid;
       gap: 1rem;
     }
-    
+
     .dimension-item {
       margin-bottom: 1rem;
       padding: 1.2rem 1.5rem;
@@ -82,29 +82,29 @@
       transform: translateX(-20px);
       border-left: 4px solid transparent;
     }
-    
+
     .dimension-item:nth-child(1) {
       border-left-color: #ba68c8;
     }
-    
+
     .dimension-item:nth-child(2) {
       border-left-color: #81c784;
     }
-    
+
     .dimension-item:nth-child(3) {
       border-left-color: #64b5f6;
     }
-    
+
     .dimension-item:nth-child(4) {
       border-left-color: #ffeb3b;
     }
-    
+
     .dimension-item:hover {
       transform: translateX(10px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
       background-color: var(--bs-dark-bg-subtle);
     }
-    
+
     .start-button {
       display: block;
       width: max-content;
@@ -123,7 +123,7 @@
       position: relative;
       overflow: hidden;
     }
-    
+
     .start-button::after {
       content: '';
       position: absolute;
@@ -136,17 +136,17 @@
       opacity: 0;
       transition: transform 0.6s, opacity 0.6s;
     }
-    
+
     .start-button:hover::after {
       transform: scale(1);
       opacity: 1;
     }
-    
+
     .start-button:hover {
       transform: translateY(-3px);
       box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
     }
-    
+
     @keyframes pulse {
       0% {
         transform: scale(1);
@@ -158,11 +158,11 @@
         transform: scale(1);
       }
     }
-    
+
     .pulse {
       animation: pulse 2s infinite;
     }
-    
+
     .footer-text {
       text-align: center;
       font-size: 0.9rem;
@@ -171,16 +171,16 @@
       font-weight: 300;
       opacity: 0;
     }
-    
+
     /* Animation classes */
     .fade-in {
       animation: fadeIn 1s ease-out forwards;
     }
-    
+
     .slide-in {
       animation: slideIn 0.8s ease-out forwards;
     }
-    
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -189,7 +189,7 @@
         opacity: 1;
       }
     }
-    
+
     @keyframes slideIn {
       from {
         opacity: 0;
@@ -200,7 +200,7 @@
         transform: translateY(0);
       }
     }
-    
+
     /* Staggered animations for dimension items */
     .dimension-item:nth-child(1) {
       animation-delay: 0.2s;
@@ -214,25 +214,25 @@
     .dimension-item:nth-child(4) {
       animation-delay: 0.8s;
     }
-    
+
     /* Scroll Reveal Animation */
     .reveal {
       opacity: 0;
       transform: translateY(30px);
       transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     }
-    
+
     .reveal.active {
       opacity: 1;
       transform: translateY(0);
     }
-    
+
     @media (max-width: 768px) {
       .intro-text,
       .dimension-item {
         font-size: 1rem;
       }
-    
+
       .start-button {
         padding: 1rem 2.5rem;
         font-size: 1.1rem;
@@ -258,12 +258,12 @@
           threshold: 0.1
         }
       )
-    
+
       // Observe all elements with the 'reveal' class
       document.querySelectorAll('.reveal').forEach((section) => {
         observer.observe(section)
       })
-    
+
       // Add animation to content sections with delay
       document.querySelectorAll('.intro-text, .dimension-item, .footer-text').forEach((element, index) => {
         element.style.setProperty('--animation-order', index + 1)

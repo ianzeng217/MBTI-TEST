@@ -1,18 +1,18 @@
 
 {% extends "base.html" %}
 
-{% block title %}แบบทดสอบ MBTI ที่แม่นยำ{% endblock %}
+{% block title %}MBTI 性格测试{% endblock %}
 
 {% block content %}
 <div class="page-container">
-    <h1>แบบทดสอบ MBTI</h1>
+    <h1>MBTI 性格测试</h1>
     <div class="instructions">
-        <h3>คำแนะนำ</h3>
+        <h3>测试说明</h3>
         <ul>
-            <li>แบบทดสอบมีทั้งหมด 32 ข้อ แบ่งเป็น 4 ส่วน</li>
-            <li>แต่ละข้อมีตัวเลือก 5 ระดับ ให้เลือกตามความเป็นจริง</li>
-            <li>ไม่มีคำตอบที่ถูกหรือผิด ตอบตามความรู้สึกของคุณ</li>
-            <li>อย่าคิดนานเกินไป ให้ตอบตามสัญชาตญาณแรก</li>
+            <li>本测试共 32 题，分为 4 个部分</li>
+            <li>每题有 5 个选项，请按实际情况作答</li>
+            <li>没有对错之分，请根据自己的真实感受回答</li>
+            <li>不要想太久，按第一直觉作答即可</li>
         </ul>
     </div>
 
@@ -22,92 +22,92 @@
 
     <form id="mbtiForm" method="POST">
         <div class="question-section" id="section-1">
-            <h2><span class="section-icon">👥</span> ส่วนที่ 1: พลังงานและการมีปฏิสัมพันธ์</h2>
+            <h2><span class="section-icon">👥</span> 第一部分：能量与社交互动</h2>
             <div id="ei-questions"></div>
             <div class="section-nav">
-                <button type="button" class="nav-button next" id="next-section-1">ถัดไป</button>
+                <button type="button" class="nav-button next" id="next-section-1">下一步</button>
             </div>
         </div>
 
         <div class="question-section" id="section-2">
-            <h2><span class="section-icon">🔍</span> ส่วนที่ 2: การรับข้อมูลและการตีความ</h2>
+            <h2><span class="section-icon">🔍</span> 第二部分：信息获取与解读</h2>
             <div id="sn-questions"></div>
             <div class="section-nav">
-                <button type="button" class="nav-button prev" id="prev-section-2">ก่อนหน้า</button>
-                <button type="button" class="nav-button next" id="next-section-2">ถัดไป</button>
+                <button type="button" class="nav-button prev" id="prev-section-2">上一步</button>
+                <button type="button" class="nav-button next" id="next-section-2">下一步</button>
             </div>
         </div>
 
         <div class="question-section" id="section-3">
-            <h2><span class="section-icon">🧠</span> ส่วนที่ 3: การตัดสินใจและการประเมินค่า</h2>
+            <h2><span class="section-icon">🧠</span> 第三部分：决策与价值判断</h2>
             <div id="tf-questions"></div>
             <div class="section-nav">
-                <button type="button" class="nav-button prev" id="prev-section-3">ก่อนหน้า</button>
-                <button type="button" class="nav-button next" id="next-section-3">ถัดไป</button>
+                <button type="button" class="nav-button prev" id="prev-section-3">上一步</button>
+                <button type="button" class="nav-button next" id="next-section-3">下一步</button>
             </div>
         </div>
 
         <div class="question-section" id="section-4">
-            <h2><span class="section-icon">⏱️</span> ส่วนที่ 4: ไลฟ์สไตล์และการวางแผน</h2>
+            <h2><span class="section-icon">⏱️</span> 第四部分：生活方式与规划</h2>
             <div id="jp-questions"></div>
             <div class="section-nav">
-                <button type="button" class="nav-button prev" id="prev-section-4">ก่อนหน้า</button>
+                <button type="button" class="nav-button prev" id="prev-section-4">上一步</button>
             </div>
         </div>
 
-        <div class="answer-validation" id="section-validation">กรุณาตอบทุกข้อก่อนไปส่วนถัดไป</div>
+        <div class="answer-validation" id="section-validation">请回答所有题目后再进入下一部分</div>
 
         <input type="hidden" name="mbti_result" id="mbti_result">
-        <button type="submit" id="submit-button" style="display: none;">ดูผลการทดสอบ</button>
+        <button type="submit" id="submit-button" style="display: none;">查看测试结果</button>
     </form>
 </div>
 
 <script>
     const questions = {
         ei: [
-            "ฉันมักจะรู้สึกมีพลังเมื่อได้พูดคุยกับคนหลายๆ คน",
-            "ฉันมักเป็นคนเริ่มต้นบทสนทนากับคนที่เพิ่งรู้จัก",
-            "ฉันชอบทำกิจกรรมกลุ่มมากกว่าอยู่คนเดียว",
-            "ฉันรู้สึกเหนื่อยล้าหลังจากเข้าสังคมหรืองานที่มีคนเยอะ (คำถามแบบกลับ)",
-            "ฉันชอบแสดงความคิดเห็นในที่สาธารณะ",
-            "ฉันต้องการเวลาอยู่คนเดียวเพื่อชาร์จพลังให้ตัวเอง (คำถามแบบกลับ)",
-            "ฉันรู้สึกสนุกเมื่อได้อยู่ในที่ที่มีกิจกรรมคึกคักและมีคนเยอะ",
-            "ฉันพูดออกมาก่อนที่จะคิดให้รอบคอบบ่อยครั้ง"
+            "我经常在与许多人交谈时感到精力充沛",
+            "我通常是主动与陌生人开始对话的人",
+            "我喜欢团体活动而不是独处",
+            "我在社交活动或人多的场合后会感到疲惫 (反向题)",
+            "我喜欢在公共场合表达意见",
+            "我需要独处时间来恢复精力 (反向题)",
+            "我在热闹、人多的地方感到开心",
+            "我经常不假思索就脱口而出"
         ],
         sn: [
-            "ฉันชอบใส่ใจรายละเอียดและข้อเท็จจริงที่ชัดเจน",
-            "ฉันมักจะคิดถึงความเป็นไปได้ในอนาคตมากกว่าสนใจสิ่งที่เกิดขึ้นตอนนี้ (คำถามแบบกลับ)",
-            "ฉันเชื่อในสิ่งที่เห็นและจับต้องได้มากกว่าทฤษฎีหรือความคิดที่เป็นนามธรรม",
-            "ฉันมักจะมองเห็นแบบแผนและความเชื่อมโยงที่คนอื่นมองข้าม (คำถามแบบกลับ)",
-            "ฉันชอบทำงานที่มีขั้นตอนชัดเจน ปฏิบัติได้จริง",
-            "ฉันมักจะคิดถึงภาพรวมและความหมายที่แฝงอยู่เบื้องหลัง (คำถามแบบกลับ)",
-            "ฉันชอบเรียนรู้จากประสบการณ์จริงมากกว่าการอ่านหรือการทำความเข้าใจแนวคิด",
-            "ฉันชอบใช้จินตนาการและมองหาความเป็นไปได้ใหม่ๆ (คำถามแบบกลับ)"
+            "我喜欢关注具体的细节和事实",
+            "我更常思考未来的可能性，而不是关注当下发生的事 (反向题)",
+            "我相信眼见为实，胜过抽象的理论或想法",
+            "我常常能看到别人忽视的规律和联系 (反向题)",
+            "我喜欢有明确步骤、切实可行的工作",
+            "我常常思考大局观和背后的深层含义 (反向题)",
+            "我更喜欢从实际经验中学习，而不是阅读或理解概念",
+            "我喜欢运用想象力，寻找新的可能性 (反向题)"
         ],
         tf: [
-            "ฉันมักตัดสินใจโดยใช้เหตุผลและตรรกะเป็นหลัก",
-            "ฉันพิจารณาความรู้สึกของคนอื่นก่อนจะตัดสินใจเรื่องสำคัญ (คำถามแบบกลับ)",
-            "ฉันมักจะพูดความจริงตรงๆ แม้อาจทำให้คนอื่นรู้สึกไม่ดี",
-            "การรักษาความสัมพันธ์ที่ดีสำคัญกว่าการเอาชนะในการโต้แย้ง (คำถามแบบกลับ)",
-            "ฉันชอบวิเคราะห์ปัญหาอย่างเป็นเหตุเป็นผลโดยไม่ใส่ความรู้สึกส่วนตัวเข้าไป",
-            "ฉันมักจะตัดสินใจตามสิ่งที่รู้สึกว่าถูกต้องในใจมากกว่าข้อมูลเชิงตรรกะ (คำถามแบบกลับ)",
-            "คนมักบอกว่าฉันเป็นคนเย็นชาหรือไม่แสดงอารมณ์",
-            "ฉันให้ความสำคัญกับความกลมเกลียวและความเข้าใจซึ่งกันและกัน (คำถามแบบกลับ)"
+            "我通常以理性和逻辑为主要依据做决策",
+            "在做重要决定前，我会先考虑他人的感受 (反向题)",
+            "我通常直接说出真相，即使可能让他人感到不舒服",
+            "维护良好的关系比在争论中获胜更重要 (反向题)",
+            "我喜欢客观地分析问题，不将个人情感带入其中",
+            "我更倾向于按内心感觉来做决定，而非依据逻辑数据 (反向题)",
+            "别人常说我冷漠或不善于表达情感",
+            "我重视和谐与相互理解 (反向题)"
         ],
         jp: [
-            "ฉันชอบวางแผนและเตรียมพร้อมล่วงหน้าเสมอ",
-            "ฉันชอบความยืดหยุ่นและการปรับเปลี่ยนไปตามสถานการณ์ (คำถามแบบกลับ)",
-            "ฉันทำงานอย่างเป็นระบบและมีการจัดการเวลาที่ดี",
-            "ฉันมักจะปล่อยให้สิ่งต่างๆ เกิดขึ้นตามธรรมชาติโดยไม่พยายามควบคุมมากเกินไป (คำถามแบบกลับ)",
-            "ฉันรู้สึกไม่สบายใจเมื่อมีการเปลี่ยนแปลงกะทันหัน",
-            "ฉันชอบที่จะมีตัวเลือกเปิดไว้และตัดสินใจในนาทีสุดท้าย (คำถามแบบกลับ)",
-            "ฉันเป็นคนเรียบร้อย มีระเบียบ ทุกอย่างต้องอยู่ในที่ของมัน",
-            "ฉันชอบการผจญภัยและความตื่นเต้นของสิ่งที่ไม่คาดคิด (คำถามแบบกลับ)"
+            "我总是喜欢提前规划和准备",
+            "我喜欢灵活应对，随机应变 (反向题)",
+            "我工作有条不紊，时间管理良好",
+            "我通常顺其自然，不过分强求控制 (反向题)",
+            "突然的变化让我感到不舒服",
+            "我喜欢保留选择，在最后时刻再做决定 (反向题)",
+            "我整洁有序，凡事都有固定的位置",
+            "我喜欢冒险和意外带来的兴奋感 (反向题)"
         ]
     };
 
     const optionValues = [2, 1, 0, -1, -2];
-    const optionLabels = ["เห็นด้วยอย่างยิ่ง", "เห็นด้วย", "เฉยๆ/ไม่แน่ใจ", "ไม่เห็นด้วย", "ไม่เห็นด้วยอย่างยิ่ง"];
+    const optionLabels = ["非常同意", "同意", "不确定", "不同意", "非常不同意"];
     let currentSection = 1;
     const totalSections = 4;
 
@@ -116,8 +116,8 @@
         container.innerHTML = '';
 
         questions.forEach((question, index) => {
-            const isReversed = question.includes("(คำถามแบบกลับ)");
-            const displayQuestion = question.replace("(คำถามแบบกลับ)", "");
+            const isReversed = question.includes("(反向题)");
+            const displayQuestion = question.replace("(反向题)", "");
             const questionNumber = index + (
                 section === 'ei' ? 1 :
                 section === 'sn' ? 9 :
@@ -167,7 +167,7 @@
         const progress = ((newSection - 1) / totalSections) * 100;
         document.getElementById('progress-bar').style.width = `${progress}%`;
 
-        document.getElementById('submit-button').style.display = 
+        document.getElementById('submit-button').style.display =
             newSection === totalSections ? 'block' : 'none';
 
         window.scrollTo({
@@ -210,7 +210,7 @@
             e.preventDefault();
 
             if (!isSectionComplete(totalSections)) {
-                alert('กรุณาตอบทุกข้อคำถามก่อนส่งแบบทดสอบ');
+                alert('请回答所有题目后再提交测试');
                 return;
             }
 
@@ -247,11 +247,11 @@
 {% block extra_css %}
 <style>
     :root {
-        --analyst-color: #BA68C8;    /* บ้านม่วง - นักวิเคราะห์ */
-        --diplomat-color: #81C784;    /* บ้านเขียว - นักการทูต */
-        --guardian-color: #64B5F6;    /* บ้านฟ้า - ผู้พิทักษ์ */
-        --explorer-color: #FFEB3B;    /* บ้านเหลือง - นักสำรวจ */
-        --mbti-gradient: linear-gradient(135deg, var(--analyst-color), var(--diplomat-color), 
+        --analyst-color: #BA68C8;
+        --diplomat-color: #81C784;
+        --guardian-color: #64B5F6;
+        --explorer-color: #FFEB3B;
+        --mbti-gradient: linear-gradient(135deg, var(--analyst-color), var(--diplomat-color),
                                             var(--guardian-color), var(--explorer-color));
         --mbti-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         --mbti-text: #2d3436;

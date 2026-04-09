@@ -7,7 +7,7 @@
         --green-color: #27AE60;
         --blue-color: #2980B9;
         --yellow-color: #F1C40F;
-        --mbti-gradient: linear-gradient(135deg, 
+        --mbti-gradient: linear-gradient(135deg,
             var(--purple-color),
             var(--green-color),
             var(--blue-color),
@@ -199,7 +199,7 @@
 
 {% block content %}
 <div class="auth-container">
-    <h2>เข้าสู่ระบบ</h2>
+    <h2>登录</h2>
     <form method="POST" action="{{ url_for('main.login') }}">
         {{ form.hidden_tag() }}
         <div class="form-group">
@@ -221,14 +221,13 @@
         </div>
     </form>
     <div class="auth-links">
-        <p>ยังไม่มีบัญชี? <a href="{{ url_for('main.register') }}" class="register-link">ลงทะเบียนที่นี่</a></p>
+        <p>还没有账号？ <a href="{{ url_for('main.register') }}" class="register-link">在此注册</a></p>
     </div>
 </div>
 {% endblock %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Add sparkle effect on input focus
     document.querySelectorAll('.form-control').forEach(input => {
         input.addEventListener('focus', function() {
             const sparkles = this.nextElementSibling;

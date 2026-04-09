@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}ผลการทดสอบ MBTI{% endblock %}
+{% block title %}MBTI 测试结果{% endblock %}
 
 {% block extra_css %}
 <style>
     :root {
-        --analyst-color: #BA68C8;    /* บ้านม่วง - นักวิเคราะห์ */
-        --diplomat-color: #81C784;    /* บ้านเขียว - นักการทูต */
-        --guardian-color: #64B5F6;    /* บ้านฟ้า - ผู้พิทักษ์ */
-        --explorer-color: #FFEB3B;    /* บ้านเหลือง - นักสำรวจ */
-        --mbti-gradient: linear-gradient(135deg, var(--analyst-color), var(--diplomat-color), 
+        --analyst-color: #BA68C8;
+        --diplomat-color: #81C784;
+        --guardian-color: #64B5F6;
+        --explorer-color: #FFEB3B;
+        --mbti-gradient: linear-gradient(135deg, var(--analyst-color), var(--diplomat-color),
                                                 var(--guardian-color), var(--explorer-color));
         --mbti-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         --mbti-bg: #f5f5f5;
@@ -215,12 +215,12 @@
 {% endblock %}
 
 {% block content %}
-<h1>ผลการทดสอบบุคลิกภาพ MBTI</h1>
+<h1>MBTI 性格测试结果</h1>
 <div id="resultContent">
     <div id="warningMessage" style="display: none; text-align: center; margin: 2rem 0;">
-        <p style="font-size: 1.2rem; margin-bottom: 1rem;">คุณยังไม่ได้ทำแบบทดสอบ MBTI</p>
+        <p style="font-size: 1.2rem; margin-bottom: 1rem;">您还未完成 MBTI 测试</p>
         <a href="{{ url_for('main.quiz') }}" class="back-button" style="display: inline-block;">
-            ไปทำแบบทดสอบ
+            前往测试
         </a>
     </div>
 
@@ -228,7 +228,7 @@
         {% if current_user.is_authenticated %}
             {% if current_user.mbti_type %}
                 <div class="result-header">
-                    <div>บุคลิกภาพของคุณคือ</div>
+                    <div>您的性格类型是</div>
                     <div class="type">{{ current_user.mbti_type }}</div>
                 </div>
             {% endif %}
@@ -237,7 +237,7 @@
 </div>
 
 <div id="retakeButtons" style="text-align: center; margin-top: 2rem;">
-    <a href="{{ url_for('main.quiz') }}" class="back-button" style="margin: 0 10px;">ทำแบบทดสอบอีกครั้ง</a>
+    <a href="{{ url_for('main.quiz') }}" class="back-button" style="margin: 0 10px;">重新测试</a>
 </div>
 
 <div class="overlay" id="overlay"></div>
@@ -248,179 +248,179 @@
 <script>
     const typeDescriptions = {
         'INTJ': {
-            name: 'นักวางกลยุทธ์ (The Architect)',
-            traits: ['Introverted', 'Intuitive', 'Thinking', 'Judging'],
-            description: 'คนที่มีความเป็นผู้นำทางความคิด มีวิสัยทัศน์ที่ชัดเจน และมีความสามารถในการวางแผนระยะยาว',
+            name: '策略家 (The Architect)',
+            traits: ['内向', '直觉', '思维', '判断'],
+            description: '极具战略思维的领导者，拥有清晰的远见，擅长制定长远计划。',
             characteristics: [
-                'มีความคิดเชิงกลยุทธ์',
-                'ชอบวางแผนและจัดระบบ',
-                'มีความเป็นตรรกะสูง',
-                'ชอบความท้าทายทางปัญญา'
+                '具备战略性思维',
+                '善于规划与组织',
+                '逻辑性极强',
+                '热爱智识挑战'
             ]
         },
         'INTP': {
-            name: 'นักคิด (The Logician)',
-            traits: ['Introverted', 'Intuitive', 'Thinking', 'Perceiving'],
-            description: 'นักคิดที่มีความเป็นนวัตกร ชอบวิเคราะห์ปัญหาที่ซับซ้อน และมองหาวิธีแก้ปัญหาที่สร้างสรรค์',
+            name: '逻辑学家 (The Logician)',
+            traits: ['内向', '直觉', '思维', '感知'],
+            description: '富有创新精神的思考者，热衷于分析复杂问题，寻求创造性解决方案。',
             characteristics: [
-                'มีความคิดสร้างสรรค์สูง',
-                'ชอบการวิเคราะห์',
-                'มีความเป็นตรรกะ',
-                'สนใจในทฤษฎีและแนวคิด'
+                '创造力丰富',
+                '善于分析',
+                '逻辑思维强',
+                '对理论与概念充满兴趣'
             ]
         },
         'ENTJ': {
-            name: 'ผู้บริหาร (The Executive)',
-            traits: ['Extroverted', 'Intuitive', 'Thinking', 'Judging'],
-            description: 'ผู้นำที่เด็ดขาด มีความมั่นใจในตัวเองสูง และมีความสามารถในการตัดสินใจอย่างรวดเร็ว',
+            name: '指挥官 (The Executive)',
+            traits: ['外向', '直觉', '思维', '判断'],
+            description: '果断的领导者，自信心强，具备快速决策的能力。',
             characteristics: [
-                'มีความเป็นผู้นำ',
-                'มีความมั่นใจในตัวเอง',
-                'มีความสามารถในการตัดสินใจ',
-                'ชอบการควบคุมสถานการณ์'
+                '天生领导力',
+                '自信果断',
+                '决策能力强',
+                '善于掌控全局'
             ]
         },
         'ENTP': {
-            name: 'นักคิดนอกกรอบ (The Debater)',
-            traits: ['Extroverted', 'Intuitive', 'Thinking', 'Perceiving'],
-            description: 'คนที่มีความคิดสร้างสรรค์ ชอบการถกเถียง และมองโลกในแง่ดี',
+            name: '辩论家 (The Debater)',
+            traits: ['外向', '直觉', '思维', '感知'],
+            description: '富有创意、喜欢辩论、乐观积极的思想者。',
             characteristics: [
-                'มีความคิดสร้างสรรค์',
-                'ชอบการถกเถียง', 
-                'มองโลกในแง่ดี',
-                'มีความคิดริเริ่มสร้างสรรค์'
+                '思维活跃有创意',
+                '热爱辩论',
+                '乐观向上',
+                '充满创新精神'
             ]
         },
         'INFJ': {
-            name: 'ที่ปรึกษา (The Advocate)',
-            traits: ['Introverted', 'Intuitive', 'Feeling', 'Judging'],
-            description: 'คนที่มีความเข้าใจอารมณ์คนอื่นได้ดี มีความเห็นอกเห็นใจ และมีความสามารถในการสร้างแรงบันดาลใจ',
+            name: '提倡者 (The Advocate)',
+            traits: ['内向', '直觉', '情感', '判断'],
+            description: '能深刻理解他人情感、富有同理心，并擅长激励他人的人。',
             characteristics: [
-                'มีความเห็นอกเห็นใจ',
-                'เข้าใจอารมณ์คนอื่นได้ดี',
-                'มีความสามารถในการสร้างแรงบันดาลใจ',
-                'ชอบความสงบสุข'
+                '富有同理心',
+                '善解人意',
+                '擅长激励他人',
+                '渴望平和安宁'
             ]
         },
         'INFP': {
-            name: 'นักเขียน (The Mediator)',
-            traits: ['Introverted', 'Intuitive', 'Feeling', 'Perceiving'],
-            description: 'คนที่มีความคิดสร้างสรรค์ ชอบความเป็นอิสระ และมีความอ่อนโยน',
+            name: '调停者 (The Mediator)',
+            traits: ['内向', '直觉', '情感', '感知'],
+            description: '富有创意、向往自由、温柔体贴的人。',
             characteristics: [
-                'มีความคิดสร้างสรรค์',
-                'ชอบความเป็นอิสระ',
-                'มีความอ่อนโยน',
-                'ชอบความคิดสร้างสรรค์'
+                '创造力丰富',
+                '渴望自由',
+                '温柔体贴',
+                '充满想象力'
             ]
         },
         'ENFJ': {
-            name: 'ผู้ให้การสนับสนุน (The Protagonist)',
-            traits: ['Extroverted', 'Intuitive', 'Feeling', 'Judging'],
-            description: 'คนที่มีความเป็นผู้นำ มีความเห็นอกเห็นใจ และมีความสามารถในการสร้างแรงบันดาลใจ',
+            name: '主人公 (The Protagonist)',
+            traits: ['外向', '直觉', '情感', '判断'],
+            description: '具有领导力、富有同理心，能够激励并影响他人的人。',
             characteristics: [
-                'มีความเป็นผู้นำ',
-                'มีความเห็นอกเห็นใจ',
-                'มีความสามารถในการสร้างแรงบันดาลใจ',
-                'ชอบช่วยเหลือผู้อื่น'
+                '天生领导力',
+                '富有同理心',
+                '擅长激励他人',
+                '乐于助人'
             ]
         },
         'ENFP': {
-            name: 'นักคิดสร้างสรรค์ (The Campaigner)',
-            traits: ['Extroverted', 'Intuitive', 'Feeling', 'Perceiving'],
-            description: 'คนที่มีความคิดสร้างสรรค์ ชอบการผจญภัย และมีความกระตือรือร้น',
+            name: '活动家 (The Campaigner)',
+            traits: ['外向', '直觉', '情感', '感知'],
+            description: '富有创意、热爱冒险、充满热情活力的人。',
             characteristics: [
-                'มีความคิดสร้างสรรค์',
-                'ชอบการผจญภัย',
-                'มีความกระตือรือร้น',
-                'ชอบความตื่นเต้นเร้าใจ'
+                '创造力丰富',
+                '热爱冒险',
+                '充满热情',
+                '享受刺激与新鲜感'
             ]
         },
         'ISTJ': {
-            name: 'ผู้จัดการ (The Logistician)',
-            traits: ['Introverted', 'Sensing', 'Thinking', 'Judging'],
-            description: 'คนที่มีความรับผิดชอบสูง มีความละเอียดรอบคอบ และมีความสามารถในการจัดการ',
+            name: '物流师 (The Logistician)',
+            traits: ['内向', '实感', '思维', '判断'],
+            description: '高度负责、做事细致周到，具备出色管理能力的人。',
             characteristics: [
-                'มีความรับผิดชอบสูง',
-                'มีความละเอียดรอบคอบ',
-                'มีความสามารถในการจัดการ',
-                'ชอบความเป็นระเบียบเรียบร้อย'
+                '责任心强',
+                '细致周到',
+                '管理能力强',
+                '重视规则与秩序'
             ]
         },
         'ISFJ': {
-            name: 'ผู้พิทักษ์ (The Defender)',
-            traits: ['Introverted', 'Sensing', 'Feeling', 'Judging'],
-            description: 'คนที่มีความเห็นอกเห็นใจ มีความอ่อนโยน และมีความรับผิดชอบ',
+            name: '守卫者 (The Defender)',
+            traits: ['内向', '实感', '情感', '判断'],
+            description: '富有同理心、温柔体贴、尽职尽责的人。',
             characteristics: [
-                'มีความเห็นอกเห็นใจ',
-                'มีความอ่อนโยน',
-                'มีความรับผิดชอบ',
-                'ชอบดูแลผู้อื่น'
+                '富有同理心',
+                '温柔体贴',
+                '责任心强',
+                '善于照顾他人'
             ]
         },
         'ESTJ': {
-            name: 'ผู้บริหาร (The Executive)',
-            traits: ['Extroverted', 'Sensing', 'Thinking', 'Judging'],
-            description: 'ผู้นำที่เข้มแข็ง มีความเป็นระเบียบ และมีความสามารถในการจัดการ',
+            name: '总经理 (The Executive)',
+            traits: ['外向', '实感', '思维', '判断'],
+            description: '强势的领导者，有条不紊，具备出色的管理能力。',
             characteristics: [
-                'มีความเป็นผู้นำ',
-                'มีความเป็นระเบียบ',
-                'มีความสามารถในการจัดการ',
-                'ชอบความเป็นระเบียบเรียบร้อย'
+                '领导力强',
+                '重视秩序',
+                '管理能力强',
+                '做事规范有条理'
             ]
         },
         'ESFJ': {
-            name: 'ผู้ดูแล (The Consul)',
-            traits: ['Extroverted', 'Sensing', 'Feeling', 'Judging'],
-            description: 'คนที่มีความเห็นอกเห็นใจ มีความเอาใจใส่ และมีความรับผิดชอบ',
+            name: '执政官 (The Consul)',
+            traits: ['外向', '实感', '情感', '判断'],
+            description: '富有同理心、关怀体贴、尽职尽责的人。',
             characteristics: [
-                'มีความเห็นอกเห็นใจ',
-                'มีความเอาใจใส่',
-                'มีความรับผิดชอบ',
-                'ชอบดูแลผู้อื่น'
+                '富有同理心',
+                '细心关怀',
+                '责任心强',
+                '善于照顾他人'
             ]
         },
         'ISTP': {
-            name: 'ช่างประดิษฐ์ (The Virtuoso)',
-            traits: ['Introverted', 'Sensing', 'Thinking', 'Perceiving'],
-            description: 'คนที่มีความคิดสร้างสรรค์ ชอบการแก้ปัญหา และมีความเป็นอิสระ',
+            name: '鉴赏家 (The Virtuoso)',
+            traits: ['内向', '实感', '思维', '感知'],
+            description: '富有创意、善于解决问题、向往自由的人。',
             characteristics: [
-                'มีความคิดสร้างสรรค์',
-                'ชอบการแก้ปัญหา',
-                'มีความเป็นอิสระ',
-                'ชอบความท้าทาย'
+                '创造力丰富',
+                '善于解决问题',
+                '渴望自由',
+                '喜爱挑战'
             ]
         },
         'ISFP': {
-            name: 'ศิลปิน (The Adventurer)',
-            traits: ['Introverted', 'Sensing', 'Feeling', 'Perceiving'],
-            description: 'คนที่มีความคิดสร้างสรรค์ ชอบความงาม และมีความอ่อนโยน',
+            name: '探险家 (The Adventurer)',
+            traits: ['内向', '实感', '情感', '感知'],
+            description: '富有创意、热爱美好事物、温柔体贴的人。',
             characteristics: [
-                'มีความคิดสร้างสรรค์',
-                'ชอบความงาม',
-                'มีความอ่อนโยน',
-                'ชอบความสงบสุข'
+                '创造力丰富',
+                '热爱美好事物',
+                '温柔体贴',
+                '渴望平和宁静'
             ]
         },
         'ESTP': {
-            name: 'ผู้ประกอบการ (The Entrepreneur)',
-            traits: ['Extroverted', 'Sensing', 'Thinking', 'Perceiving'],
-            description: 'คนที่มีความกระตือรือร้น ชอบการผจญภัย และมีความเป็นอิสระ',
+            name: '企业家 (The Entrepreneur)',
+            traits: ['外向', '实感', '思维', '感知'],
+            description: '充满热情、热爱冒险、向往自由的人。',
             characteristics: [
-                'มีความกระตือรือร้น',
-                'ชอบการผจญภัย',
-                'มีความเป็นอิสระ',
-                'ชอบความตื่นเต้น'
+                '充满热情',
+                '热爱冒险',
+                '渴望自由',
+                '享受刺激感'
             ]
         },
         'ESFP': {
-            name: 'นักแสดง (The Entertainer)',
-            traits: ['Extroverted', 'Sensing', 'Feeling', 'Perceiving'],
-            description: 'คนที่มีความสนุกสนาน ชอบการเข้าสังคม และมีความเป็นมิตร',
+            name: '表演者 (The Entertainer)',
+            traits: ['外向', '实感', '情感', '感知'],
+            description: '充满活力、热爱社交、友好开朗的人。',
             characteristics: [
-                'มีความสนุกสนาน',
-                'ชอบการเข้าสังคม',
-                'มีความเป็นมิตร',
-                'ชอบความตื่นเต้น'
+                '活力四射',
+                '热爱社交',
+                '友好开朗',
+                '享受刺激与新鲜感'
             ]
         }
     };
@@ -452,14 +452,14 @@
             popup.innerHTML = `
                 <div style="text-align: center; padding: 30px;">
                     <h2 style="margin-bottom: 20px; color: var(--mbti-text); font-size: 1.8rem;">
-                        แจ้งเตือน
+                        温馨提示
                     </h2>
                     <p style="font-size: 1.2rem; margin-bottom: 25px; color: var(--mbti-text); line-height: 1.6;">
-                        คุณยังไม่ได้ทำแบบทดสอบ กรุณาทำแบบทดสอบเพื่อดูผลลัพธ์
+                        您还未完成测试，请先完成测试以查看结果
                     </p>
-                    <a href="{{ url_for('main.quiz') }}" class="back-button" 
+                    <a href="{{ url_for('main.quiz') }}" class="back-button"
                        style="display: inline-block; margin-top: 15px; padding: 12px 30px; font-size: 1.1rem;">
-                        เริ่มทำแบบทดสอบ
+                        开始测试
                     </a>
                 </div>
             `;
@@ -491,7 +491,7 @@
 
             mbtiResult.innerHTML = `
                 <div class="result-header" style="background-color: ${colorLight}20;">
-                    <div>บุคลิกภาพของคุณคือ</div>
+                    <div>您的性格类型是</div>
                     <div class="type">${mbtiType}: ${typeInfo.name}</div>
                 </div>
                 <div class="trait-breakdown">
@@ -499,7 +499,7 @@
                 </div>
                 <div class="description">${typeInfo.description}</div>
                 <div class="characteristics" style="--mbti-color-light: ${colorLight}; --mbti-color-lighter: ${colorLighter};">
-                    <h3>ลักษณะเด่น</h3>
+                    <h3>显著特征</h3>
                     <ul>
                         ${typeInfo.characteristics.map(char => `<li>${char}</li>`).join('')}
                     </ul>

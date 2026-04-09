@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Characters{% endblock %}
+{% block title %}动漫角色{% endblock %}
 
 {% block extra_css %}
 <style>
@@ -484,14 +484,14 @@
 
 {% block content %}
 <div class="page-header">
-    <h1>Anime Characters</h1>
-    <div class="subtitle">ตัวละครอนิเมะที่มี MBTI Type เดียวกับคุณ</div>
+    <h1>动漫角色</h1>
+    <div class="subtitle">与你同MBTI类型的动漫角色</div>
     <div class="user-type-section">
-        <h2 class="user-type-title">MBTI Type ของคุณ:</h2>
+        <h2 class="user-type-title">你的MBTI类型：</h2>
         <div class="user-type-box" id="user-type-box">
             <span id="user-type-value">-</span>
         </div>
-        <button id="change-type-btn" class="change-type-btn">เปลี่ยน Type</button>
+        <button id="change-type-btn" class="change-type-btn">更换类型</button>
     </div>
 </div>
 
@@ -501,7 +501,7 @@
 
 <div class="overlay" id="overlay"></div>
 <div class="popup" id="popup">
-    <h2>เลือก MBTI Type ของคุณ</h2>
+    <h2>选择你的MBTI类型</h2>
     <div class="type-grid" id="popup-type-grid"></div>
 </div>
 
@@ -603,19 +603,19 @@
     function renderCharacters() {
         const characterGrid = document.getElementById('character-grid');
         if (!userType) {
-            characterGrid.innerHTML = '<p class="empty-message">เลือก MBTI Type ของคุณเพื่อดูตัวละคร</p>';
+            characterGrid.innerHTML = '<p class="empty-message">请选择你的MBTI类型以查看角色</p>';
             return;
         }
 
         const houseData = getTypeHouseData(userType);
         if (!characterData[houseData] || !characterData[houseData].types || !characterData[houseData].types[userType]) {
-            characterGrid.innerHTML = '<p class="empty-message">ไม่พบข้อมูลตัวละครสำหรับ Type นี้</p>';
+            characterGrid.innerHTML = '<p class="empty-message">未找到此类型的角色信息</p>';
             return;
         }
 
         const typeData = characterData[houseData].types[userType];
         if (!typeData.characters || !Array.isArray(typeData.characters)) {
-            characterGrid.innerHTML = '<p class="empty-message">ไม่พบข้อมูลตัวละครที่ถูกต้อง</p>';
+            characterGrid.innerHTML = '<p class="empty-message">未找到有效的角色信息</p>';
             return;
         }
 
@@ -744,18 +744,18 @@
             const popup = document.getElementById('popup');
             popup.innerHTML = `
                 <div class="popup-content">
-                    <h2 class="popup-title">เริ่มต้นค้นหาตัวละครที่เข้ากับคุณ</h2>
+                    <h2 class="popup-title">开始寻找与你相配的角色</h2>
                     <div class="popup-body">
                         <p class="popup-description">
-                            เพื่อให้คุณได้รู้จักตัวละครที่มีบุคลิกภาพคล้ายคุณ 
-                            เราขอแนะนำให้ทำแบบทดสอบ MBTI สั้นๆ ก่อนนะคะ
+                            为了让你了解拥有相似性格的动漫角色，
+                            建议先完成 MBTI 测试
                         </p>
                         <p class="popup-hint">
-                            ใช้เวลาเพียง 5-10 นาทีในการค้นพบตัวตนที่แท้จริงของคุณ
+                            只需 5-10 分钟，即可发现真实的自己
                         </p>
                         <a href="{{ url_for('main.quiz') }}" class="change-type-btn" style="text-decoration: none; display: inline-block; margin-top: 10px;">
                         <i class="fas fa-tasks"></i>
-                        เริ่มทำแบบทดสอบ
+                        开始测试
                     </a>
                     </div>
                 </div>`;

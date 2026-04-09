@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}MBTI Insights{% endblock %}
+{% block title %}MBTI 深度解析{% endblock %}
 
 {% block extra_css %}
 <style>
@@ -608,22 +608,22 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const TYPE_NICKNAMES = {
-        'INTJ': ['The Mastermind', 'นักวางกลยุทธ์'],
-        'ENTJ': ['The Commander', 'ผู้นำกลยุทธ์'],
-        'INTP': ['The Logician', 'นักตรรกะ'],
-        'ENTP': ['The Debater', 'นักโต้แย้ง'],
-        'INFJ': ['The Advocate', 'นักปราชญ์ผู้มีวิสัยทัศน์'],
-        'ENFJ': ['The Protagonist', 'ผู้นำที่มีอุดมการณ์'],
-        'INFP': ['The Mediator', 'นักไกล่เกลี่ย'],
-        'ENFP': ['The Campaigner', 'นักรณรงค์'],
-        'ISTJ': ['The Logistician', 'นักบริหารจัดการ'],
-        'ESTJ': ['The Executive', 'นักบริหาร'],
-        'ISFJ': ['The Defender', 'ผู้พิทักษ์'],
-        'ESFJ': ['The Consul', 'ผู้ให้คำปรึกษา'],
-        'ISTP': ['The Virtuoso', 'ผู้ชำนาญการ'],
-        'ESTP': ['The Entrepreneur', 'ผู้ประกอบการ'],
-        'ISFP': ['The Adventurer', 'นักผจญภัย'],
-        'ESFP': ['The Entertainer', 'นักแสดง']
+        'INTJ': ['The Mastermind', '策略家'],
+        'ENTJ': ['The Commander', '指挥官'],
+        'INTP': ['The Logician', '逻辑学家'],
+        'ENTP': ['The Debater', '辩论家'],
+        'INFJ': ['The Advocate', '提倡者'],
+        'ENFJ': ['The Protagonist', '主人公'],
+        'INFP': ['The Mediator', '调停者'],
+        'ENFP': ['The Campaigner', '活动家'],
+        'ISTJ': ['The Logistician', '物流师'],
+        'ESTJ': ['The Executive', '总经理'],
+        'ISFJ': ['The Defender', '守卫者'],
+        'ESFJ': ['The Consul', '执政官'],
+        'ISTP': ['The Virtuoso', '鉴赏家'],
+        'ESTP': ['The Entrepreneur', '企业家'],
+        'ISFP': ['The Adventurer', '探险家'],
+        'ESFP': ['The Entertainer', '表演者']
     };
 
     const typeHouses = {
@@ -732,7 +732,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <h2>${type}</h2>
             <div class="mbti-nickname">${nickname}<br>(${thaiName})</div>
             <button class="change-type-btn" onclick="showTypePopup()">
-                เปลี่ยน Type
+                更换类型
             </button>
         `;
     }

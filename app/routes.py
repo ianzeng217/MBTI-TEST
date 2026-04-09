@@ -30,7 +30,7 @@ def quiz():
             if current_user.is_authenticated:
                 current_user.mbti_type = mbti_result
                 db.session.commit()
-            flash("MBTI Type ของคุณถูกบันทึกเรียบร้อยแล้ว", "success")
+            flash("您的MBTI类型已保存成功", "success")
             return redirect(url_for("main.result"))
     return render_template("quiz.html")
 
@@ -99,7 +99,7 @@ def register():
         user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
-        flash("Congratulations, you are now a registered user!")
+        flash("恭喜，您已成功注册！")
         return redirect(url_for("main.login"))
     return render_template("register.html", form=form)
 
@@ -110,7 +110,7 @@ def login():
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
         if user is None or not user.check_password(form.password.data):
-            flash("Invalid username or password")
+            flash("用户名或密码错误")
             return redirect(url_for("main.login"))
         login_user(user)
         return redirect(url_for("main.home"))
