@@ -88,7 +88,7 @@
 
 ```bash
 # 1. Clone Repository  
-git clone https://github.com/chokunkie02/mbti_checker.git  
+git clone https://github.com/ianzeng217/MBTI-TEST.git  
 cd mbti_checker  
 
 # 2. Create Virtual Environment  
